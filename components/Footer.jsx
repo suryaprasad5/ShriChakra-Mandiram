@@ -16,8 +16,8 @@ export default function Footer() {
             </Link>
           ))}
         </div>
-        <p className="footer-address">123 Mandir Marg, Bengaluru, Karnataka 560001 · +91 98765 43210</p>
-        <p className="footer-copy">© 2025 ShriChakra Mandiram. All rights reserved. · Jai Mata Di 🙏</p>
+        <p className="footer-address">Srichakra LALITHA MANDIRAM Uttarahalli to kengeri Road, Near Paduka Mandir, Uttarahalli Hobli, Landmark -- Just before to patalamma temple cross, Gubbalala, Subramanyapura, Bengaluru, Karnataka 560061 · +91 98867 14586</p>
+        <p className="footer-copy">© 2026 ShriChakra Mandiram. All rights reserved. · 🙏</p>
       </div>
     </footer>
   );
