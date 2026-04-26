@@ -1,7 +1,5 @@
 import './globals.css';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import SiteInteractions from '@/components/SiteInteractions';
+import AppChrome from '@/components/AppChrome';
 
 export const metadata = {
   title: 'ShriChakra Mandiram',
@@ -20,10 +18,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <Navbar />
-        {children}
-        <Footer />
-        <SiteInteractions />
+        <AppChrome>{children}</AppChrome>
       </body>
     </html>
   );
