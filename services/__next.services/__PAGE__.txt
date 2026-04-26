@@ -1,0 +1,173 @@
+1:"$Sreact.fragment"
+4:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0bf_1pet3ixfw.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:T25a0,<div class="page-hero">
+  <p class="breadcrumb"><a href="/ShriChakra-Mandiram/">Home</a> · Services</p>
+  <h1>Seva &amp; Rituals</h1>
+  <p>Sacred services performed by trained priests following ancient Agama and Tantra Shastra traditions — for your wellbeing, protection, and liberation.</p>
+</div>
+
+<!-- HOW TO BOOK -->
+<section class="section" style="padding-bottom:2rem;">
+  <div class="container">
+    <div style="background:rgba(139,26,26,0.15);border:1px solid rgba(201,146,42,0.2);padding:2rem;display:flex;align-items:center;gap:2rem;flex-wrap:wrap;" class="fade-in">
+      <div style="font-size:2.5rem;">📞</div>
+      <div>
+        <h3 style="font-family:var(--font-sub);color:var(--gold-lt);margin-bottom:0.3rem;">How to Book a Seva</h3>
+        <p style="color:var(--text-muted);">Call us at <strong style="color:var(--gold);">+91 98765 43210</strong> or visit the temple office between 9 AM – 12 PM and 4 PM – 7 PM. Please bring your name, nakshatra (birth star), and rashi (moon sign) for personalised Archana. Advance booking required for Homas and Yagas.</p>
+      </div>
+      <a href="/ShriChakra-Mandiram/contact" class="btn-primary" style="margin-left:auto;white-space:nowrap;">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- DAILY SERVICES -->
+<section class="section" style="padding-top:2rem;">
+  <div class="container">
+    <p class="section-label">Daily Rituals</p>
+    <h2>Nitya Puja Schedule</h2>
+
+    <div style="margin-top:2rem;border:1px solid rgba(201,146,42,0.15);overflow:hidden;" class="fade-in">
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:var(--maroon);padding:1rem 1.5rem;font-family:var(--font-sub);font-size:0.78rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);">
+        <span>Puja</span><span>Time</span><span>Deity</span><span>Open To</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:1rem 1.5rem;border-top:1px solid rgba(201,146,42,0.1);font-size:0.95rem;">
+        <span style="font-family:var(--font-sub);color:var(--gold-lt);">Nirmalya Darshan</span><span style="color:var(--text-muted);">5:30 – 6:00 AM</span><span style="color:var(--text-muted);">All shrines</span><span style="color:var(--text-muted);">Priests only</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:1rem 1.5rem;border-top:1px solid rgba(201,146,42,0.1);background:rgba(255,255,255,0.02);font-size:0.95rem;">
+        <span style="font-family:var(--font-sub);color:var(--gold-lt);">Thiruvanandal</span><span style="color:var(--text-muted);">6:00 – 7:30 AM</span><span style="color:var(--text-muted);">Main Deity</span><span style="color:var(--text-muted);">All Devotees</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:1rem 1.5rem;border-top:1px solid rgba(201,146,42,0.1);font-size:0.95rem;">
+        <span style="font-family:var(--font-sub);color:var(--gold-lt);">Kala Puja</span><span style="color:var(--text-muted);">8:00 – 9:00 AM</span><span style="color:var(--text-muted);">All shrines</span><span style="color:var(--text-muted);">All Devotees</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:1rem 1.5rem;border-top:1px solid rgba(201,146,42,0.1);background:rgba(255,255,255,0.02);font-size:0.95rem;">
+        <span style="font-family:var(--font-sub);color:var(--gold-lt);">Noon Archana</span><span style="color:var(--text-muted);">11:00 AM – 12:30 PM</span><span style="color:var(--text-muted);">Main Deity</span><span style="color:var(--text-muted);">All Devotees</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:1rem 1.5rem;border-top:1px solid rgba(201,146,42,0.1);font-size:0.95rem;">
+        <span style="font-family:var(--font-sub);color:var(--gold-lt);">Evening Aarti</span><span style="color:var(--text-muted);">6:00 – 7:30 PM</span><span style="color:var(--text-muted);">All shrines</span><span style="color:var(--text-muted);">All Devotees</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:1rem 1.5rem;border-top:1px solid rgba(201,146,42,0.1);background:rgba(255,255,255,0.02);font-size:0.95rem;">
+        <span style="font-family:var(--font-sub);color:var(--gold-lt);">Night Puja</span><span style="color:var(--text-muted);">8:30 – 9:30 PM</span><span style="color:var(--text-muted);">Main Deity</span><span style="color:var(--text-muted);">All Devotees</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIAL SERVICES -->
+<section class="section" style="background:var(--bg-section);">
+  <div class="container">
+    <p class="section-label">Personal Services</p>
+    <h2>Sevas for Devotees</h2>
+    <div class="cards-grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));">
+
+      <div class="service-card fade-in">
+        <div class="service-header">
+          <div class="service-icon">📿</div>
+          <h3>Nama Archana</h3>
+        </div>
+        <div class="service-body">
+          <p>Personal Archana with your name and nakshatra offered to the Devi using 108 or 1008 names from Lalita Sahasranama. Includes prasadam.</p>
+          <div class="price-tag">Starting from <span>₹108</span></div>
+        </div>
+      </div>
+
+      <div class="service-card fade-in">
+        <div class="service-header">
+          <div class="service-icon">💧</div>
+          <h3>Abhishekam</h3>
+        </div>
+        <div class="service-body">
+          <p>Sacred bathing of the deity with panchamrita (milk, curd, honey, ghee, sugarcane juice), then with fresh water and flowers. Highly auspicious.</p>
+          <div class="price-tag">Starting from <span>₹501</span></div>
+        </div>
+      </div>
+
+      <div class="service-card fade-in">
+        <div class="service-header">
+          <div class="service-icon">🔥</div>
+          <h3>Ganapati Homa</h3>
+        </div>
+        <div class="service-body">
+          <p>Fire ritual to Lord Ganesha to remove obstacles before beginning new ventures, journeys, studies, or life events. Modaka naivedya included.</p>
+          <div class="price-tag">Starting from <span>₹1,100</span></div>
+        </div>
+      </div>
+
+      <div class="service-card fade-in">
+        <div class="service-header">
+          <div class="service-icon">🌺</div>
+          <h3>Chandi Homa</h3>
+        </div>
+        <div class="service-body">
+          <p>Powerful fire ritual based on Devi Mahatmyam (700 verses). Conducted for protection, wellbeing, and victory over adversity. Duration: 4–6 hours.</p>
+          <div class="price-tag">Starting from <span>₹5,100</span></div>
+        </div>
+      </div>
+
+      <div class="service-card fade-in">
+        <div class="service-header">
+          <div class="service-icon">⭐</div>
+          <h3>Navagraha Puja</h3>
+        </div>
+        <div class="service-body">
+          <p>Propitiation of all nine planetary deities. Ideal for new beginnings, resolving astrological challenges, or during Sade Sati and Dasha periods.</p>
+          <div class="price-tag">Starting from <span>₹1,501</span></div>
+        </div>
+      </div>
+
+      <div class="service-card fade-in">
+        <div class="service-header">
+          <div class="service-icon">🕯️</div>
+          <h3>Sahasra Deepa Puja</h3>
+        </div>
+        <div class="service-body">
+          <p>Lighting of 1,008 lamps before the Devi — one of the most auspicious sevas. Especially offered on Fridays and Navaratri evenings.</p>
+          <div class="price-tag">Starting from <span>₹2,100</span></div>
+        </div>
+      </div>
+
+      <div class="service-card fade-in">
+        <div class="service-header">
+          <div class="service-icon">💍</div>
+          <h3>Marriage Blessing Puja</h3>
+        </div>
+        <div class="service-body">
+          <p>Special puja at the temple for couples seeking Devi's blessings for a harmonious and prosperous married life. Includes Kanya Puja and Sumangali Prarthana.</p>
+          <div class="price-tag">Starting from <span>₹3,100</span></div>
+        </div>
+      </div>
+
+      <div class="service-card fade-in">
+        <div class="service-header">
+          <div class="service-icon">👶</div>
+          <h3>Namakarana &amp; Annaprasana</h3>
+        </div>
+        <div class="service-body">
+          <p>Sacred naming ceremony and first solid food ritual for infants, conducted with full Vedic procedures at the temple or at home by our priests.</p>
+          <div class="price-tag">Starting from <span>₹2,500</span></div>
+        </div>
+      </div>
+
+      <div class="service-card fade-in">
+        <div class="service-header">
+          <div class="service-icon">🏠</div>
+          <h3>Grihapravesh Puja</h3>
+        </div>
+        <div class="service-body">
+          <p>Vastu Puja and housewarming ritual to consecrate a new home and invite divine blessings into it. Includes Punyahavachanam and Navagraha puja.</p>
+          <div class="price-tag">Starting from <span>₹4,500</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="quote-section">
+  <div class="quote-inner">
+    <div class="quote-chakra">🙏</div>
+    <blockquote>"Serve with sincerity, offer with love, and the Devi herself becomes the reward."</blockquote>
+    <cite>— Temple Teaching</cite>
+  </div>
+</section>0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],null,"$L3"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"trMEv6Ch7yVF9ZIZEk8PY"}
+3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
+6:null

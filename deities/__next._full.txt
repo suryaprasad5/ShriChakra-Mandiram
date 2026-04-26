@@ -1,0 +1,174 @@
+1:"$Sreact.fragment"
+2:I[95401,["/ShriChakra-Mandiram/_next/static/chunks/0bf_1pet3ixfw.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+3:I[39756,["/ShriChakra-Mandiram/_next/static/chunks/0bf_1pet3ixfw.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+4:I[37457,["/ShriChakra-Mandiram/_next/static/chunks/0bf_1pet3ixfw.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+5:I[22016,["/ShriChakra-Mandiram/_next/static/chunks/0bf_1pet3ixfw.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],""]
+6:I[99276,["/ShriChakra-Mandiram/_next/static/chunks/0bf_1pet3ixfw.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+b:I[68027,["/ShriChakra-Mandiram/_next/static/chunks/0bf_1pet3ixfw.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/ShriChakra-Mandiram/_next/static/chunks/00.u~p2rosajm.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap","style"]
+7:T2d1f,<div class="page-hero">
+  <p class="breadcrumb"><a href="/ShriChakra-Mandiram/">Home</a> · Deities</p>
+  <h1>The Divine Pantheon</h1>
+  <p>The presiding deities of ShriChakra Mandiram, each an aspect of the one Supreme Shakti — Devi Tripura Sundari.</p>
+</div>
+
+<!-- PRESIDING DEITY FEATURE -->
+<section class="section">
+  <div class="container">
+    <p class="section-label">Presiding Deity</p>
+    <div style="display:grid;grid-template-columns:1fr 1.5fr;gap:4rem;align-items:center;margin-top:1rem;" class="fade-in">
+      <div style="display:flex;justify-content:center;">
+        <div style="width:280px;height:360px;background:radial-gradient(circle at 50% 40%,rgba(139,26,26,0.5) 0%,rgba(10,5,3,0.9) 70%);border:1px solid rgba(201,146,42,0.3);display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;">
+          <div style="font-size:8rem;filter:drop-shadow(0 0 40px rgba(201,146,42,0.5));">🕉️</div>
+          <div style="position:absolute;bottom:0;left:0;right:0;padding:1rem;background:linear-gradient(transparent,rgba(10,5,3,0.95));text-align:center;">
+            <div style="font-family:var(--font-sub);color:var(--gold-lt);font-size:0.8rem;letter-spacing:0.15em;text-transform:uppercase;">Shodasha Mahabhishekam · Daily</div>
+          </div>
+          <!-- corner decorations -->
+          <div style="position:absolute;top:8px;left:8px;width:20px;height:20px;border-top:2px solid var(--gold);border-left:2px solid var(--gold);"></div>
+          <div style="position:absolute;top:8px;right:8px;width:20px;height:20px;border-top:2px solid var(--gold);border-right:2px solid var(--gold);"></div>
+          <div style="position:absolute;bottom:8px;left:8px;width:20px;height:20px;border-bottom:2px solid var(--gold);border-left:2px solid var(--gold);"></div>
+          <div style="position:absolute;bottom:8px;right:8px;width:20px;height:20px;border-bottom:2px solid var(--gold);border-right:2px solid var(--gold);"></div>
+        </div>
+      </div>
+      <div>
+        <h2 style="margin-bottom:0.5rem;">Devi Tripura Sundari</h2>
+        <p style="font-family:var(--font-sub);font-size:0.8rem;letter-spacing:0.15em;color:var(--gold);text-transform:uppercase;margin-bottom:1.5rem;">Lalita · Rajeshwari · Mahatripurasundari</p>
+        <p style="color:var(--text-muted);margin-bottom:1rem;">Tripura Sundari — "She who is beautiful in all three worlds" — is the Supreme Goddess of the Sri Vidya tradition and the presiding deity of this temple. She is the sixteenth Nitya (eternal form), known as Shodashi, and is considered the most complete manifestation of the Divine Mother.</p>
+        <p style="color:var(--text-muted);margin-bottom:1rem;">Her yantra, the ShriChakra, consists of nine interlocking triangles surrounding a central bindu, representing the union of Shiva (masculine principle) and Shakti (feminine principle) at 43 sacred points, each inhabited by a deity.</p>
+        <p style="color:var(--text-muted);margin-bottom:1.5rem;">She holds a sugarcane bow (desire), flower arrows (the five senses), a noose (bondage she frees us from), and a goad (liberation). Her red complexion symbolizes the fire of consciousness that pervades all creation.</p>
+        <div style="display:flex;gap:2rem;flex-wrap:wrap;">
+          <div><span style="font-family:var(--font-sub);font-size:0.72rem;color:var(--gold);letter-spacing:0.12em;text-transform:uppercase;display:block;margin-bottom:0.2rem;">Also Known As</span><span style="color:var(--text-muted);">Lalita, Bala, Kamakshi</span></div>
+          <div><span style="font-family:var(--font-sub);font-size:0.72rem;color:var(--gold);letter-spacing:0.12em;text-transform:uppercase;display:block;margin-bottom:0.2rem;">Yantra</span><span style="color:var(--text-muted);">ShriChakra (Meru)</span></div>
+          <div><span style="font-family:var(--font-sub);font-size:0.72rem;color:var(--gold);letter-spacing:0.12em;text-transform:uppercase;display:block;margin-bottom:0.2rem;">Tradition</span><span style="color:var(--text-muted);">Sri Vidya · Shakta</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OTHER DEITIES -->
+<section class="section" style="background:var(--bg-section);">
+  <div class="container">
+    <p class="section-label center">Also Worshipped</p>
+    <h2 class="center">The Temple Pantheon</h2>
+    <div class="cards-grid">
+      <div class="deity-card fade-in">
+        <div class="card-thumb">🔱</div>
+        <div class="card-body">
+          <h3>Lord Shiva – Chandramauleshwara</h3>
+          <span class="card-sub">North Shrine · Pradosham Puja</span>
+          <p>As the masculine half of the Ardhanarishvara, Shiva is inseparable from Shakti. His form here as Chandramauleshwara — the crescent-moon crowned — symbolizes the cooling grace of consciousness.</p>
+        </div>
+      </div>
+      <div class="deity-card fade-in">
+        <div class="card-thumb">🦚</div>
+        <div class="card-body">
+          <h3>Lord Murugan – Subramanya</h3>
+          <span class="card-sub">East Shrine · Friday Puja</span>
+          <p>The warrior son of Shiva and Parvati, known as Skanda and Kartikeya. Worshipped here as protector and granter of wisdom, with a grand chariot festival conducted annually.</p>
+        </div>
+      </div>
+      <div class="deity-card fade-in">
+        <div class="card-thumb">🐘</div>
+        <div class="card-body">
+          <h3>Lord Ganesha – Mahaganapati</h3>
+          <span class="card-sub">Entrance Shrine · All Days</span>
+          <p>The elephant-headed remover of obstacles stands guard at the temple entrance. Every ritual begins and ends with Ganesha puja. Sankashti Chaturthi is celebrated monthly.</p>
+        </div>
+      </div>
+      <div class="deity-card fade-in">
+        <div class="card-thumb">🌺</div>
+        <div class="card-body">
+          <h3>Devi Saraswati</h3>
+          <span class="card-sub">Library Shrine · Saraswati Puja</span>
+          <p>Goddess of knowledge, arts, and wisdom. A special abhishekam is conducted every Vijayadashami when all books, instruments, and tools are blessed in the tradition of Ayudha Puja.</p>
+        </div>
+      </div>
+      <div class="deity-card fade-in">
+        <div class="card-thumb">💛</div>
+        <div class="card-body">
+          <h3>Devi Mahalakshmi</h3>
+          <span class="card-sub">South Shrine · Friday Puja</span>
+          <p>The Goddess of abundance, fortune, and prosperity. Lotus offerings and special turmeric abhishekam are conducted every Friday. A grand Varalakshmi Vratam is held annually.</p>
+        </div>
+      </div>
+      <div class="deity-card fade-in">
+        <div class="card-thumb">🐒</div>
+        <div class="card-body">
+          <h3>Lord Hanuman</h3>
+          <span class="card-sub">West Shrine · Tuesday &amp; Saturday</span>
+          <p>The embodiment of devotion, strength, and service. Sundarakanda parayana is conducted every Tuesday evening, drawing devotees seeking courage and protection.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NAVAGRAHA -->
+<section class="section">
+  <div class="container">
+    <p class="section-label center">Planetary Deities</p>
+    <h2 class="center">Navagraha Shrine</h2>
+    <p style="text-align:center;color:var(--text-muted);max-width:600px;margin:0 auto 3rem;">The nine planetary deities are installed in the traditional circular formation in the Navagraha Shrine. Special abhishekam for each graha is performed on their corresponding day.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;" class="fade-in">
+      <div style="background:rgba(255,200,50,0.07);border:1px solid rgba(255,200,50,0.2);padding:1rem;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.4rem;">☀️</div>
+        <div style="font-family:var(--font-sub);font-size:0.85rem;color:var(--gold-lt);">Surya</div>
+        <div style="font-family:var(--font-sub);font-size:0.7rem;color:var(--text-muted);">Sunday</div>
+      </div>
+      <div style="background:rgba(200,200,255,0.07);border:1px solid rgba(200,200,255,0.2);padding:1rem;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.4rem;">🌙</div>
+        <div style="font-family:var(--font-sub);font-size:0.85rem;color:var(--gold-lt);">Chandra</div>
+        <div style="font-family:var(--font-sub);font-size:0.7rem;color:var(--text-muted);">Monday</div>
+      </div>
+      <div style="background:rgba(255,100,50,0.07);border:1px solid rgba(255,100,50,0.2);padding:1rem;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.4rem;">🔴</div>
+        <div style="font-family:var(--font-sub);font-size:0.85rem;color:var(--gold-lt);">Mangala</div>
+        <div style="font-family:var(--font-sub);font-size:0.7rem;color:var(--text-muted);">Tuesday</div>
+      </div>
+      <div style="background:rgba(50,200,100,0.07);border:1px solid rgba(50,200,100,0.2);padding:1rem;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.4rem;">🟢</div>
+        <div style="font-family:var(--font-sub);font-size:0.85rem;color:var(--gold-lt);">Budha</div>
+        <div style="font-family:var(--font-sub);font-size:0.7rem;color:var(--text-muted);">Wednesday</div>
+      </div>
+      <div style="background:rgba(255,220,100,0.07);border:1px solid rgba(255,220,100,0.2);padding:1rem;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.4rem;">🟡</div>
+        <div style="font-family:var(--font-sub);font-size:0.85rem;color:var(--gold-lt);">Guru</div>
+        <div style="font-family:var(--font-sub);font-size:0.7rem;color:var(--text-muted);">Thursday</div>
+      </div>
+      <div style="background:rgba(200,150,255,0.07);border:1px solid rgba(200,150,255,0.2);padding:1rem;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.4rem;">⚪</div>
+        <div style="font-family:var(--font-sub);font-size:0.85rem;color:var(--gold-lt);">Shukra</div>
+        <div style="font-family:var(--font-sub);font-size:0.7rem;color:var(--text-muted);">Friday</div>
+      </div>
+      <div style="background:rgba(100,100,150,0.07);border:1px solid rgba(100,100,150,0.2);padding:1rem;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.4rem;">⚫</div>
+        <div style="font-family:var(--font-sub);font-size:0.85rem;color:var(--gold-lt);">Shani</div>
+        <div style="font-family:var(--font-sub);font-size:0.7rem;color:var(--text-muted);">Saturday</div>
+      </div>
+      <div style="background:rgba(150,50,50,0.07);border:1px solid rgba(150,50,50,0.2);padding:1rem;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.4rem;">🐍</div>
+        <div style="font-family:var(--font-sub);font-size:0.85rem;color:var(--gold-lt);">Rahu</div>
+        <div style="font-family:var(--font-sub);font-size:0.7rem;color:var(--text-muted);">Ashtami</div>
+      </div>
+      <div style="background:rgba(80,150,80,0.07);border:1px solid rgba(80,150,80,0.2);padding:1rem;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.4rem;">🐉</div>
+        <div style="font-family:var(--font-sub);font-size:0.85rem;color:var(--gold-lt);">Ketu</div>
+        <div style="font-family:var(--font-sub);font-size:0.7rem;color:var(--text-muted);">Chaturdashi</div>
+      </div>
+    </div>
+  </div>
+</section>0:{"P":null,"c":["","deities"],"q":"","i":false,"f":[[["",{"children":["deities",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/ShriChakra-Mandiram/_next/static/chunks/00.u~p2rosajm.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/ShriChakra-Mandiram/_next/static/chunks/0bf_1pet3ixfw.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"footer-inner","children":[["$","div",null,{"className":"footer-logo","children":[["$","span",null,{"className":"om-footer","children":"ॐ"}],["$","span",null,{"children":"ShriChakra Mandiram"}]]}],["$","div",null,{"className":"footer-links","children":[["$","$L5","/",{"href":"/","children":"Home"}],["$","$L5","/about",{"href":"/about","children":"About"}],["$","$L5","/deities",{"href":"/deities","children":"Deities"}],["$","$L5","/services",{"href":"/services","children":"Services"}],["$","$L5","/events",{"href":"/events","children":"Events"}],["$","$L5","/gallery",{"href":"/gallery","children":"Gallery"}],["$","$L5","/contact",{"href":"/contact","children":"Contact"}]]}],["$","p",null,{"className":"footer-address","children":"123 Mandir Marg, Bengaluru, Karnataka 560001 · +91 98765 43210"}],["$","p",null,{"className":"footer-copy","children":"© 2025 ShriChakra Mandiram. All rights reserved. · Jai Mata Di 🙏"}]]}]}],["$","$L6",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}],null,"$L8"]}],{},null,false,null]},null,false,"$@9"]},null,false,null],"$La",false]],"m":"$undefined","G":["$b",["$Lc"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"trMEv6Ch7yVF9ZIZEk8PY"}
+d:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0bf_1pet3ixfw.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+e:"$Sreact.suspense"
+11:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0bf_1pet3ixfw.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+13:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0bf_1pet3ixfw.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+8:["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]
+10:[]
+9:"$W10"
+a:["$","$1","h",{"children":[null,["$","$L11",null,{"children":"$L12"}],["$","div",null,{"hidden":true,"children":["$","$L13",null,{"children":["$","$e",null,{"name":"Next.Metadata","children":"$L14"}]}]}],null]}]
+c:["$","link","0",{"rel":"stylesheet","href":"/ShriChakra-Mandiram/_next/static/chunks/00.u~p2rosajm.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+12:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+f:null
+14:[["$","title","0",{"children":"Deities – ShriChakra Mandiram"}],["$","meta","1",{"name":"description","content":"Sacred temple website for ShriChakra Mandiram."}]]
