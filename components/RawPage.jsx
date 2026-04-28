@@ -4,7 +4,7 @@ const routeMap = {
   'index.html': '/',
   'about.html': '/about',
   'deities.html': '/deities',
-  'services.html': '/services',
+  'services.html': '/sevas',
   'events.html': '/events',
   'contact.html': '/contact',
 };

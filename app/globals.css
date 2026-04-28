@@ -474,6 +474,11 @@ cite { font-family: var(--font-sub); font-size: 0.8rem; letter-spacing: 0.15em; 
   margin-bottom: 1.5rem;
 }
 .admin-header h2 { font-size: clamp(1.7rem, 3vw, 2.4rem); }
+.admin-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
 .admin-grid {
   display: grid;
   grid-template-columns: 1.3fr 0.9fr;
@@ -512,6 +517,18 @@ cite { font-family: var(--font-sub); font-size: 0.8rem; letter-spacing: 0.15em; 
 .admin-panel textarea { min-height: 110px; resize: vertical; }
 .admin-panel input:focus,
 .admin-panel textarea:focus { border-color: var(--gold); }
+.admin-check {
+  flex-direction: row !important;
+  align-items: center;
+  gap: 0.75rem !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+  color: var(--text-muted) !important;
+}
+.admin-check input {
+  width: auto;
+  accent-color: var(--gold);
+}
 .admin-two {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -561,6 +578,16 @@ cite { font-family: var(--font-sub); font-size: 0.8rem; letter-spacing: 0.15em; 
   border: 1px solid rgba(201,146,42,0.2);
 }
 .admin-invitation-preview span {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+.admin-drive-summary {
+  display: grid;
+  gap: 0.4rem;
+  margin: 0 0 1rem;
+  padding: 0.85rem 1rem;
+  background: rgba(201,146,42,0.06);
+  border: 1px solid rgba(201,146,42,0.16);
   color: var(--text-muted);
   font-size: 0.9rem;
 }
@@ -630,6 +657,12 @@ cite { font-family: var(--font-sub); font-size: 0.8rem; letter-spacing: 0.15em; 
   color: var(--gold-lt);
   background: rgba(201,146,42,0.08);
   border: 1px solid rgba(201,146,42,0.22);
+}
+.admin-json {
+  min-height: 260px;
+  font-family: Consolas, monospace !important;
+  font-size: 0.85rem !important;
+  line-height: 1.45;
 }
 
 /* ── FOOTER ── */

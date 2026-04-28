@@ -7,17 +7,27 @@ const defaultEvent = {
   date: '2026-10-12',
   location: 'Main Temple Hall',
   summary: 'Nine nights of Devi worship, alankara, chanting, and community seva.',
-  invitationName: '',
-  invitationPreview: '',
+  invitationFileUrl: '',
+  galleryDriveFolderUrl: '',
   gallerySections: [
     {
       id: 1,
       name: 'Day 1 - Devi Alankara',
       description: 'Photos from the first day of Navaratri worship.',
+      driveFolderUrl: '',
       photos: [],
     },
   ],
 };
+
+const defaultSevas = [
+  { id: 1, name: 'Archana', description: 'Personal offering with name, nakshatra, flowers, kumkum, and Devi ashtottara.', price: '₹251', active: true },
+  { id: 2, name: 'Abhishekam', description: 'Sacred bathing of the deity with panchamrita, fresh water, and flowers.', price: '₹501', active: true },
+  { id: 3, name: 'Ganapati Homa', description: 'Fire ritual to remove obstacles before new beginnings and life events.', price: '₹1,100', active: true },
+  { id: 4, name: 'Chandi Homa', description: 'Powerful Devi Mahatmyam fire ritual for protection and wellbeing.', price: '₹5,100', active: true },
+  { id: 5, name: 'Navagraha Puja', description: 'Propitiation of the nine planetary deities for harmony and relief.', price: '₹1,501', active: true },
+  { id: 6, name: 'Sahasra Deepa Puja', description: 'Lighting of 1,008 lamps before the Devi, especially auspicious on Fridays.', price: '₹2,100', active: true },
+];
 
 function fileToPreview(file) {
   return {
@@ -27,15 +37,59 @@ function fileToPreview(file) {
   };
 }
 
+function extractDriveId(url) {
+  if (!url) return '';
+  const patterns = [
+    /\/folders\/([a-zA-Z0-9_-]+)/,
+    /\/file\/d\/([a-zA-Z0-9_-]+)/,
+    /[?&]id=([a-zA-Z0-9_-]+)/,
+    /\/open\?id=([a-zA-Z0-9_-]+)/,
+  ];
+
+  for (const pattern of patterns) {
+    const match = url.match(pattern);
+    if (match?.[1]) return match[1];
+  }
+
+  return '';
+}
+
+function driveImageUrl(url) {
+  const id = extractDriveId(url);
+  return id ? `https://drive.google.com/uc?export=view&id=${id}` : '';
+}
+
 export default function AdminPage() {
   const [event, setEvent] = useState(defaultEvent);
+  const [sevas, setSevas] = useState(defaultSevas);
   const [activeSectionId, setActiveSectionId] = useState(defaultEvent.gallerySections[0].id);
+  const [activeSevaId, setActiveSevaId] = useState(defaultSevas[0].id);
   const [notice, setNotice] = useState('');
 
   const activeSection = useMemo(
     () => event.gallerySections.find((section) => section.id === activeSectionId) ?? event.gallerySections[0],
     [event.gallerySections, activeSectionId],
   );
+
+  const activeSeva = useMemo(
+    () => sevas.find((seva) => seva.id === activeSevaId) ?? sevas[0],
+    [sevas, activeSevaId],
+  );
+
+  const publishPayload = useMemo(() => JSON.stringify({
+    event: {
+      ...event,
+      invitationFileId: extractDriveId(event.invitationFileUrl),
+      invitationImageUrl: driveImageUrl(event.invitationFileUrl),
+      galleryDriveFolderId: extractDriveId(event.galleryDriveFolderUrl),
+      gallerySections: event.gallerySections.map((section) => ({
+        ...section,
+        driveFolderId: extractDriveId(section.driveFolderUrl),
+        photos: section.photos.map((photo) => ({ name: photo.name, size: photo.size })),
+      })),
+    },
+    sevas,
+  }, null, 2), [event, sevas]);
 
   function updateEvent(field, value) {
     setEvent((current) => ({ ...current, [field]: value }));
@@ -56,6 +110,7 @@ export default function AdminPage() {
       id,
       name: 'New Event Section',
       description: 'Describe this gallery section.',
+      driveFolderUrl: '',
       photos: [],
     };
 
@@ -78,26 +133,33 @@ export default function AdminPage() {
     }));
   }
 
-  function addInvitation(file) {
-    if (!file) return;
-    const preview = fileToPreview(file);
-    setEvent((current) => ({
-      ...current,
-      invitationName: preview.name,
-      invitationPreview: preview.url,
-    }));
+  function updateSeva(id, field, value) {
+    setSevas((current) => current.map((seva) => (
+      seva.id === id ? { ...seva, [field]: value } : seva
+    )));
+  }
+
+  function addSeva() {
+    const id = Date.now();
+    const seva = {
+      id,
+      name: 'New Seva',
+      description: 'Describe the seva and what is included.',
+      price: '₹',
+      active: true,
+    };
+    setSevas((current) => [...current, seva]);
+    setActiveSevaId(id);
   }
 
   function saveDraft() {
-    window.localStorage.setItem('shrichakra-admin-draft', JSON.stringify({
-      ...event,
-      invitationPreview: event.invitationName ? '[local-preview]' : '',
-      gallerySections: event.gallerySections.map((section) => ({
-        ...section,
-        photos: section.photos.map((photo) => ({ name: photo.name, size: photo.size })),
-      })),
-    }));
-    setNotice('Draft saved locally in this browser. Backend publishing can be connected later.');
+    window.localStorage.setItem('shrichakra-admin-draft', publishPayload);
+    setNotice('Draft saved locally. This payload is ready for the future backend or Drive sync endpoint.');
+  }
+
+  function copyPayload() {
+    window.navigator.clipboard?.writeText(publishPayload);
+    setNotice('Website payload copied.');
   }
 
   return (
@@ -106,15 +168,19 @@ export default function AdminPage() {
         <div>
           <p className="admin-kicker">ShriChakra Mandiram</p>
           <h1>Admin Portal</h1>
-          <p>Manage gallery sections, photo uploads, event details, and invitation artwork.</p>
+          <p>Manage Drive-linked gallery albums, invitations, events, and sevas.</p>
         </div>
         <div className="admin-stat">
           <span>Gallery Sections</span>
           <strong>{event.gallerySections.length}</strong>
         </div>
         <div className="admin-stat">
-          <span>Total Photos</span>
-          <strong>{event.gallerySections.reduce((total, section) => total + section.photos.length, 0)}</strong>
+          <span>Sevas</span>
+          <strong>{sevas.length}</strong>
+        </div>
+        <div className="admin-stat">
+          <span>Drive Links</span>
+          <strong>{event.gallerySections.filter((section) => section.driveFolderUrl).length + (event.galleryDriveFolderUrl ? 1 : 0)}</strong>
         </div>
       </aside>
 
@@ -122,9 +188,12 @@ export default function AdminPage() {
         <header className="admin-header">
           <div>
             <p className="admin-kicker">Direct Access Only</p>
-            <h2>Gallery & Event Manager</h2>
+            <h2>Temple Content Manager</h2>
           </div>
-          <button className="admin-primary" type="button" onClick={saveDraft}>Save Draft</button>
+          <div className="admin-actions">
+            <button className="admin-secondary" type="button" onClick={copyPayload}>Copy Payload</button>
+            <button className="admin-primary" type="button" onClick={saveDraft}>Save Draft</button>
+          </div>
         </header>
 
         {notice ? <div className="admin-notice">{notice}</div> : null}
@@ -133,7 +202,7 @@ export default function AdminPage() {
           <section className="admin-panel">
             <div className="admin-panel-heading">
               <p className="admin-kicker">Event Details</p>
-              <h3>Invitation & Schedule</h3>
+              <h3>Invitation & Drive Folder</h3>
             </div>
             <label>
               Event Title
@@ -153,14 +222,30 @@ export default function AdminPage() {
               Event Summary
               <textarea value={event.summary} onChange={(e) => updateEvent('summary', e.target.value)} />
             </label>
-            <label className="admin-upload">
-              <span>Upload Invitation Picture</span>
-              <input type="file" accept="image/*" onChange={(e) => addInvitation(e.target.files?.[0])} />
+            <label>
+              Invitation Google Drive Image Link
+              <input
+                value={event.invitationFileUrl}
+                placeholder="https://drive.google.com/file/d/..."
+                onChange={(e) => updateEvent('invitationFileUrl', e.target.value)}
+              />
             </label>
-            {event.invitationPreview ? (
+            <label>
+              Event Gallery Google Drive Folder Link
+              <input
+                value={event.galleryDriveFolderUrl}
+                placeholder="https://drive.google.com/drive/folders/..."
+                onChange={(e) => updateEvent('galleryDriveFolderUrl', e.target.value)}
+              />
+            </label>
+            <div className="admin-drive-summary">
+              <span>Invitation file ID: {extractDriveId(event.invitationFileUrl) || 'Not set'}</span>
+              <span>Event folder ID: {extractDriveId(event.galleryDriveFolderUrl) || 'Not set'}</span>
+            </div>
+            {driveImageUrl(event.invitationFileUrl) ? (
               <div className="admin-invitation-preview">
-                <img src={event.invitationPreview} alt={event.invitationName} />
-                <span>{event.invitationName}</span>
+                <img src={driveImageUrl(event.invitationFileUrl)} alt={`${event.title} invitation`} />
+                <span>Invitation preview from Google Drive</span>
               </div>
             ) : null}
           </section>
@@ -179,7 +264,7 @@ export default function AdminPage() {
                   onClick={() => setActiveSectionId(section.id)}
                 >
                   <span>{section.name}</span>
-                  <small>{section.photos.length} photos</small>
+                  <small>{extractDriveId(section.driveFolderUrl) ? 'Drive linked' : `${section.photos.length} photos`}</small>
                 </button>
               ))}
             </div>
@@ -189,7 +274,7 @@ export default function AdminPage() {
 
         <section className="admin-panel">
           <div className="admin-panel-heading">
-            <p className="admin-kicker">Selected Section</p>
+            <p className="admin-kicker">Selected Gallery Section</p>
             <h3>{activeSection.name}</h3>
           </div>
           <div className="admin-two">
@@ -198,12 +283,23 @@ export default function AdminPage() {
               <input value={activeSection.name} onChange={(e) => updateSection(activeSection.id, 'name', e.target.value)} />
             </label>
             <label>
-              Description
-              <input value={activeSection.description} onChange={(e) => updateSection(activeSection.id, 'description', e.target.value)} />
+              Google Drive Folder Link
+              <input
+                value={activeSection.driveFolderUrl}
+                placeholder="https://drive.google.com/drive/folders/..."
+                onChange={(e) => updateSection(activeSection.id, 'driveFolderUrl', e.target.value)}
+              />
             </label>
           </div>
+          <label>
+            Description
+            <input value={activeSection.description} onChange={(e) => updateSection(activeSection.id, 'description', e.target.value)} />
+          </label>
+          <div className="admin-drive-summary">
+            <span>Section folder ID: {extractDriveId(activeSection.driveFolderUrl) || 'Not set'}</span>
+          </div>
           <label className="admin-upload">
-            <span>Upload Photos to This Section</span>
+            <span>Local Photo Preview Upload</span>
             <input type="file" accept="image/*" multiple onChange={(e) => addPhotos(e.target.files ?? [])} />
           </label>
           <div className="admin-photo-grid">
@@ -213,9 +309,67 @@ export default function AdminPage() {
                 <figcaption>{photo.name}</figcaption>
               </figure>
             )) : (
-              <div className="admin-empty">No photos uploaded to this section yet.</div>
+              <div className="admin-empty">Drive-linked photos will appear after backend sync is connected.</div>
             )}
           </div>
+        </section>
+
+        <div className="admin-grid">
+          <section className="admin-panel">
+            <div className="admin-panel-heading">
+              <p className="admin-kicker">Seva Details</p>
+              <h3>Names, Description & Pricing</h3>
+            </div>
+            <div className="admin-section-list">
+              {sevas.map((seva) => (
+                <button
+                  className={seva.id === activeSevaId ? 'active' : ''}
+                  type="button"
+                  key={seva.id}
+                  onClick={() => setActiveSevaId(seva.id)}
+                >
+                  <span>{seva.name}</span>
+                  <small>{seva.price}</small>
+                </button>
+              ))}
+            </div>
+            <button className="admin-secondary" type="button" onClick={addSeva}>Add Seva</button>
+          </section>
+
+          <section className="admin-panel">
+            <div className="admin-panel-heading">
+              <p className="admin-kicker">Selected Seva</p>
+              <h3>{activeSeva.name}</h3>
+            </div>
+            <label>
+              Seva Name
+              <input value={activeSeva.name} onChange={(e) => updateSeva(activeSeva.id, 'name', e.target.value)} />
+            </label>
+            <label>
+              Price
+              <input value={activeSeva.price} onChange={(e) => updateSeva(activeSeva.id, 'price', e.target.value)} />
+            </label>
+            <label>
+              Description
+              <textarea value={activeSeva.description} onChange={(e) => updateSeva(activeSeva.id, 'description', e.target.value)} />
+            </label>
+            <label className="admin-check">
+              <input
+                type="checkbox"
+                checked={activeSeva.active}
+                onChange={(e) => updateSeva(activeSeva.id, 'active', e.target.checked)}
+              />
+              <span>Show this seva on the website</span>
+            </label>
+          </section>
+        </div>
+
+        <section className="admin-panel">
+          <div className="admin-panel-heading">
+            <p className="admin-kicker">Website Payload</p>
+            <h3>Backend-Ready Content JSON</h3>
+          </div>
+          <textarea className="admin-json" readOnly value={publishPayload} />
         </section>
       </section>
     </main>

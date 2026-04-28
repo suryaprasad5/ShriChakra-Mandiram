@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-4:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0td2uewu0tix9.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0z8_doegm-y~7.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 5:"$Sreact.suspense"
-2:T1b18,<!-- NAV -->
+2:T1b15,<!-- NAV -->
 <!-- HERO -->
 <section class="hero">
   <div class="hero-bg"></div>
@@ -21,7 +21,7 @@
     <div class="hero-divider"></div>
     <p class="hero-desc">A sacred sanctuary dedicated to Devi Tripura Sundari — where the eternal cosmic geometry of the ShriChakra manifests as living grace.</p>
     <div class="hero-actions">
-      <a href="/ShriChakra-Mandiram/services" class="btn-primary">View Services</a>
+      <a href="/ShriChakra-Mandiram/sevas" class="btn-primary">View Services</a>
       <a href="/ShriChakra-Mandiram/events" class="btn-ghost">Upcoming Events</a>
     </div>
   </div>
@@ -177,6 +177,6 @@
   </div>
 </section>
 
-<!-- FOOTER -->0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],null,"$L3"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"75q8g9VrRFJC-jMVhg2Gz"}
+<!-- FOOTER -->0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],null,"$L3"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"9Oec6GzPigffcy0ZUiXOo"}
 3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
 6:null
