@@ -1,8 +1,9 @@
 1:"$Sreact.fragment"
-4:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0z8_doegm-y~7.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-2:T2c51,<div class="page-hero">
-  <p class="breadcrumb"><a href="/ShriChakra-Mandiram/">Home</a> · Events</p>
+2:I[65302,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js","/ShriChakra-Mandiram/_next/static/chunks/047tbt78salsj.js"],"default"]
+6:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T2c46,<div class="page-hero">
+  <p class="breadcrumb"><a href="index.html">Home</a> · Events</p>
   <h1>Temple Events &amp; Festivals</h1>
   <p>From grand annual Mahotsavams to monthly Tithi celebrations — every day at ShriChakra Mandiram is a festival of devotion.</p>
 </div>
@@ -181,6 +182,7 @@
       </div>
     </div>
   </div>
-</section>0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],null,"$L3"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"U3e6nO7H8_pgkoYjZwpf8"}
-3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
-6:null
+</section>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"kind":"events","fallbackHtml":"$3"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"_7U_k7JB7rMsiRcAnYQFI"}
+4:["$","script","script-0",{"src":"/ShriChakra-Mandiram/_next/static/chunks/047tbt78salsj.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

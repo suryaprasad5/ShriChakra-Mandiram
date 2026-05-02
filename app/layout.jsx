@@ -1,5 +1,6 @@
 import './globals.css';
 import AppChrome from '@/components/AppChrome';
+import { basePath } from '@/lib/site';
 
 export const metadata = {
   title: 'ShriChakra Mandiram',
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap"
           rel="stylesheet"
         />
+        <script src={`${basePath}/temple-content-config.js`} />
       </head>
       <body>
         <AppChrome>{children}</AppChrome>

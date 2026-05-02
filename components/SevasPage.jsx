@@ -1,4 +1,4 @@
-import RawPage from '@/components/RawPage';
+import LiveContentPage from '@/components/LiveContentPage';
 import { pageContent } from '@/lib/pageContent';
 
 function normalizeSevasHtml(html) {
@@ -12,5 +12,5 @@ function normalizeSevasHtml(html) {
 }
 
 export default function SevasPage() {
-  return <RawPage html={normalizeSevasHtml(pageContent.services.html)} />;
+  return <LiveContentPage kind="sevas" fallbackHtml={normalizeSevasHtml(pageContent.services.html)} />;
 }

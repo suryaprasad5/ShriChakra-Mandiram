@@ -317,7 +317,15 @@ cite { font-family: var(--font-sub); font-size: 0.8rem; letter-spacing: 0.15em; 
   padding: 1.5rem; transition: all 0.3s;
 }
 .event-card:hover { border-color: var(--gold); background: rgba(255,255,255,0.05); }
-.event-date {
+.event-invitation {
+  width: 96px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border: 1px solid rgba(201,146,42,0.25);
+  background: rgba(0,0,0,0.2);
+}
+
+.event-date {
   min-width: 60px; background: var(--maroon); display: flex; flex-direction: column;
   align-items: center; justify-content: center; padding: 0.6rem; text-align: center;
   border-top: 3px solid var(--gold);

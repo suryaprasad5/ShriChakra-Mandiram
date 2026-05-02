@@ -32,6 +32,18 @@ The hidden admin page at `/admin` is designed to follow the same lightweight pat
 - Google Drive image links are converted to thumbnail URLs such as `https://drive.google.com/thumbnail?id=FILE_ID&sz=w1000`.
 - No Google API key is required for this setup.
 
+Put the temple Apps Script URL and optional CSV URLs in:
+
+```txt
+public/temple-content-config.js
+```
+
+After build/export, that file is also available at:
+
+```txt
+temple-content-config.js
+```
+
 Suggested Google Sheet tabs and columns:
 
 ```txt
@@ -49,7 +61,9 @@ saveGallerySection
 saveSeva
 ```
 
-For Drive images and folders, set sharing to "Anyone with the link can view" before pasting links into the admin page.
+An Apps Script starter is included at `scripts/apps-script.gs`. Paste it into the Google Sheet's Apps Script editor, replace `SHEET_ID`, deploy it as a web app, and put the Web App URL into `public/temple-content-config.js`.
+
+For Drive images and folders, set sharing to "Anyone with the link can view" before pasting links into the admin page. A static site cannot list a Google Drive folder by itself; the included Apps Script uses `DriveApp` to expand a folder into image thumbnail URLs without a browser-side API key.
 
 ## Future Backend
 

@@ -1,3 +1,4 @@
+import LiveContentPage from '@/components/LiveContentPage';
 import { withBasePath } from '@/lib/site';
 
 export const metadata = {
@@ -38,7 +39,7 @@ const galleryItems = [
   },
 ];
 
-export default function GalleryPage() {
+function GalleryFallback() {
   return (
     <main>
       <div className="page-hero">
@@ -84,5 +85,13 @@ export default function GalleryPage() {
         </div>
       </section>
     </main>
+  );
+}
+
+export default function GalleryPage() {
+  return (
+    <LiveContentPage kind="gallery">
+      <GalleryFallback />
+    </LiveContentPage>
   );
 }

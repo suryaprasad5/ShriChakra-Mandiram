@@ -1,4 +1,4 @@
-import RawPage from '@/components/RawPage';
+import LiveContentPage from '@/components/LiveContentPage';
 import { pageContent } from '@/lib/pageContent';
 
 export const metadata = {
@@ -6,5 +6,5 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <RawPage html={pageContent.events.html} />;
+  return <LiveContentPage kind="events" fallbackHtml={pageContent.events.html} />;
 }

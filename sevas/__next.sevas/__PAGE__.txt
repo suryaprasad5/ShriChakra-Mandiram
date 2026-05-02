@@ -1,8 +1,9 @@
 1:"$Sreact.fragment"
-4:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0z8_doegm-y~7.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-2:T2597,<div class="page-hero">
-  <p class="breadcrumb"><a href="/ShriChakra-Mandiram/">Home</a> · Sevas</p>
+2:I[65302,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js","/ShriChakra-Mandiram/_next/static/chunks/047tbt78salsj.js"],"default"]
+6:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T257c,<div class="page-hero">
+  <p class="breadcrumb"><a href="index.html">Home</a> · Sevas</p>
   <h1>Seva &amp; Rituals</h1>
   <p>Sacred sevas performed by trained priests following ancient Agama and Tantra Shastra traditions — for your wellbeing, protection, and liberation.</p>
 </div>
@@ -16,7 +17,7 @@
         <h3 style="font-family:var(--font-sub);color:var(--gold-lt);margin-bottom:0.3rem;">How to Book a Seva</h3>
         <p style="color:var(--text-muted);">Call us at <strong style="color:var(--gold);">+91 98765 43210</strong> or visit the temple office between 9 AM – 12 PM and 4 PM – 7 PM. Please bring your name, nakshatra (birth star), and rashi (moon sign) for personalised Archana. Advance booking required for Homas and Yagas.</p>
       </div>
-      <a href="/ShriChakra-Mandiram/contact" class="btn-primary" style="margin-left:auto;white-space:nowrap;">Contact Us</a>
+      <a href="contact.html" class="btn-primary" style="margin-left:auto;white-space:nowrap;">Contact Us</a>
     </div>
   </div>
 </section>
@@ -168,6 +169,7 @@
     <blockquote>"Serve with sincerity, offer with love, and the Devi herself becomes the reward."</blockquote>
     <cite>— Temple Teaching</cite>
   </div>
-</section>0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],null,"$L3"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"U3e6nO7H8_pgkoYjZwpf8"}
-3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
-6:null
+</section>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"kind":"sevas","fallbackHtml":"$3"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"_7U_k7JB7rMsiRcAnYQFI"}
+4:["$","script","script-0",{"src":"/ShriChakra-Mandiram/_next/static/chunks/047tbt78salsj.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null
