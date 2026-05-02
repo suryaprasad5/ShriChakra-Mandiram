@@ -29,6 +29,11 @@ const defaultSevas = [
   { id: 6, name: 'Sahasra Deepa Puja', description: 'Lighting of 1,008 lamps before the Devi, especially auspicious on Fridays.', price: '₹2,100', active: true },
 ];
 
+const defaultIntegration = {
+  sheetCsvUrl: '',
+  appsScriptUrl: '',
+};
+
 function fileToPreview(file) {
   return {
     name: file.name,
@@ -56,11 +61,12 @@ function extractDriveId(url) {
 
 function driveImageUrl(url) {
   const id = extractDriveId(url);
-  return id ? `https://drive.google.com/uc?export=view&id=${id}` : '';
+  return id ? `https://drive.google.com/thumbnail?id=${id}&sz=w1000` : '';
 }
 
 export default function AdminPage() {
   const [event, setEvent] = useState(defaultEvent);
+  const [integration, setIntegration] = useState(defaultIntegration);
   const [sevas, setSevas] = useState(defaultSevas);
   const [activeSectionId, setActiveSectionId] = useState(defaultEvent.gallerySections[0].id);
   const [activeSevaId, setActiveSevaId] = useState(defaultSevas[0].id);
@@ -89,7 +95,12 @@ export default function AdminPage() {
       })),
     },
     sevas,
-  }, null, 2), [event, sevas]);
+    integration,
+  }, null, 2), [event, sevas, integration]);
+
+  function updateIntegration(field, value) {
+    setIntegration((current) => ({ ...current, [field]: value }));
+  }
 
   function updateEvent(field, value) {
     setEvent((current) => ({ ...current, [field]: value }));
@@ -154,7 +165,26 @@ export default function AdminPage() {
 
   function saveDraft() {
     window.localStorage.setItem('shrichakra-admin-draft', publishPayload);
-    setNotice('Draft saved locally. This payload is ready for the future backend or Drive sync endpoint.');
+    setNotice('Draft saved locally. Use the Sheet save buttons or copy this payload for backend work later.');
+  }
+
+  function sendToSheet(action, data) {
+    if (!integration.appsScriptUrl) {
+      setNotice('Add the Apps Script Web App URL before saving to Google Sheet.');
+      return;
+    }
+
+    const params = new URLSearchParams({ action });
+    Object.entries(data).forEach(([key, value]) => {
+      params.set(key, value == null ? '' : String(value));
+    });
+
+    fetch(`${integration.appsScriptUrl}?${params.toString()}`, {
+      method: 'GET',
+      mode: 'no-cors',
+    })
+      .then(() => setNotice(`Sent ${action} to Google Sheet. Refresh the site after the sheet updates.`))
+      .catch((error) => setNotice(`Save failed: ${error.message}`));
   }
 
   function copyPayload() {
@@ -197,6 +227,35 @@ export default function AdminPage() {
         </header>
 
         {notice ? <div className="admin-notice">{notice}</div> : null}
+
+        <section className="admin-panel">
+          <div className="admin-panel-heading">
+            <p className="admin-kicker">Google Sheet Connection</p>
+            <h3>Same Lightweight Method as Turnkey</h3>
+          </div>
+          <div className="admin-two">
+            <label>
+              Published Google Sheet CSV URL
+              <input
+                value={integration.sheetCsvUrl}
+                placeholder="https://docs.google.com/spreadsheets/d/e/.../pub?output=csv"
+                onChange={(e) => updateIntegration('sheetCsvUrl', e.target.value)}
+              />
+            </label>
+            <label>
+              Apps Script Web App URL
+              <input
+                value={integration.appsScriptUrl}
+                placeholder="https://script.google.com/macros/s/.../exec"
+                onChange={(e) => updateIntegration('appsScriptUrl', e.target.value)}
+              />
+            </label>
+          </div>
+          <div className="admin-drive-summary">
+            <span>No Google API key is needed. The public website can read a published CSV, and admin saves can go through Apps Script GET requests.</span>
+            <span>Recommended tabs: Events, GallerySections, Sevas.</span>
+          </div>
+        </section>
 
         <div className="admin-grid">
           <section className="admin-panel">
@@ -248,6 +307,22 @@ export default function AdminPage() {
                 <span>Invitation preview from Google Drive</span>
               </div>
             ) : null}
+            <button
+              className="admin-secondary"
+              type="button"
+              onClick={() => sendToSheet('saveEvent', {
+                title: event.title,
+                date: event.date,
+                location: event.location,
+                summary: event.summary,
+                invitation_url: event.invitationFileUrl,
+                invitation_image: driveImageUrl(event.invitationFileUrl),
+                gallery_folder_url: event.galleryDriveFolderUrl,
+                gallery_folder_id: extractDriveId(event.galleryDriveFolderUrl),
+              })}
+            >
+              Save Event to Google Sheet
+            </button>
           </section>
 
           <section className="admin-panel">
@@ -312,6 +387,19 @@ export default function AdminPage() {
               <div className="admin-empty">Drive-linked photos will appear after backend sync is connected.</div>
             )}
           </div>
+          <button
+            className="admin-secondary"
+            type="button"
+            onClick={() => sendToSheet('saveGallerySection', {
+              event_title: event.title,
+              section_name: activeSection.name,
+              description: activeSection.description,
+              drive_folder_url: activeSection.driveFolderUrl,
+              drive_folder_id: extractDriveId(activeSection.driveFolderUrl),
+            })}
+          >
+            Save Gallery Section to Google Sheet
+          </button>
         </section>
 
         <div className="admin-grid">
@@ -361,6 +449,18 @@ export default function AdminPage() {
               />
               <span>Show this seva on the website</span>
             </label>
+            <button
+              className="admin-secondary"
+              type="button"
+              onClick={() => sendToSheet('saveSeva', {
+                name: activeSeva.name,
+                description: activeSeva.description,
+                price: activeSeva.price,
+                active: activeSeva.active ? 'yes' : 'no',
+              })}
+            >
+              Save Seva to Google Sheet
+            </button>
           </section>
         </div>
 

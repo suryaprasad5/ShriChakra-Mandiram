@@ -153,6 +153,6 @@
       </div>
     </div>
   </div>
-</section>0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],null,"$L3"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"9Oec6GzPigffcy0ZUiXOo"}
+</section>0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],null,"$L3"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"U3e6nO7H8_pgkoYjZwpf8"}
 3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
 6:null

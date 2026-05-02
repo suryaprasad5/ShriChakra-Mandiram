@@ -6,6 +6,7 @@ function normalizeSevasHtml(html) {
     .replaceAll('Services – ShriChakra Mandiram', 'Sevas - ShriChakra Mandiram')
     .replaceAll('Sacred Services', 'Sacred Sevas')
     .replaceAll('Personal Services', 'Personal Sevas')
+    .replaceAll('· Services', '· Sevas')
     .replaceAll('services performed', 'sevas performed')
     .replaceAll('services.html', 'sevas.html');
 }
