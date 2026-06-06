@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { navItems } from '@/lib/site';
+import { navItems, siteName, trustAddress } from '@/lib/site';
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-logo">
           <span className="om-footer">ॐ</span>
-          <span>ShriChakra Mandiram</span>
+          <span>{siteName}</span>
         </div>
         <div className="footer-links">
           {navItems.map((item) => (
@@ -16,8 +16,8 @@ export default function Footer() {
             </Link>
           ))}
         </div>
-        <p className="footer-address">Srichakra LALITHA MANDIRAM Uttarahalli to kengeri Road, Near Paduka Mandir, Uttarahalli Hobli, Landmark -- Just before to patalamma temple cross, Gubbalala, Subramanyapura, Bengaluru, Karnataka 560061 · +91 98867 14586</p>
-        <p className="footer-copy">© 2026 ShriChakra Mandiram. All rights reserved. · 🙏</p>
+        <p className="footer-address">{trustAddress.join(' ')}</p>
+        <p className="footer-copy">© 2026 {siteName}. All rights reserved.</p>
       </div>
     </footer>
   );

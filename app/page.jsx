@@ -1,8 +1,9 @@
 import RawPage from '@/components/RawPage';
 import { pageContent } from '@/lib/pageContent';
+import { fullTempleName } from '@/lib/site';
 
 export const metadata = {
-  title: pageContent.home.title,
+  title: `${fullTempleName} - Sacred Temple`,
 };
 
 export default function Page() {

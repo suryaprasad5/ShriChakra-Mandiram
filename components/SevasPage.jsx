@@ -3,7 +3,6 @@ import { pageContent } from '@/lib/pageContent';
 
 function normalizeSevasHtml(html) {
   return html
-    .replaceAll('Services – ShriChakra Mandiram', 'Sevas - ShriChakra Mandiram')
     .replaceAll('Sacred Services', 'Sacred Sevas')
     .replaceAll('Personal Services', 'Personal Sevas')
     .replaceAll('· Services', '· Sevas')

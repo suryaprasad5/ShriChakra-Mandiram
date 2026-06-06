@@ -1,8 +1,8 @@
 import LiveContentPage from '@/components/LiveContentPage';
-import { withBasePath } from '@/lib/site';
+import { siteName, withBasePath } from '@/lib/site';
 
 export const metadata = {
-  title: 'Gallery - ShriChakra Mandiram',
+  title: `Gallery - ${siteName}`,
 };
 
 const galleryItems = [
@@ -79,9 +79,9 @@ function GalleryFallback() {
 
       <section className="quote-section">
         <div className="quote-inner">
-          <div className="quote-chakra">⬡</div>
+          <div className="quote-chakra">ॐ</div>
           <blockquote>"Every darshan becomes a memory when devotion sees the divine in form, ritual, and silence."</blockquote>
-          <cite>— ShriChakra Mandiram</cite>
+          <cite>{siteName}</cite>
         </div>
       </section>
     </main>

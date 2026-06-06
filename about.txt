@@ -1,11 +1,11 @@
 1:"$Sreact.fragment"
-2:I[84843,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
-3:I[39756,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
-4:I[37457,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
-9:I[68027,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
-:HL["/ShriChakra-Mandiram/_next/static/chunks/04rmd3lq3~f-8.css","style"]
+2:I[84843,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+3:I[39756,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+4:I[37457,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+9:I[68027,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/ShriChakra-Mandiram/_next/static/chunks/0sys0jwyk6-sr.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap","style"]
-5:T254b,<div class="page-hero">
+5:T2c0f,<div class="page-hero">
   <p class="breadcrumb"><a href="/ShriChakra-Mandiram/">Home</a> · About</p>
   <h1>Our Sacred Heritage</h1>
   <p>A temple born from devotion, sustained by tradition, and alive through the grace of Devi Tripura Sundari.</p>
@@ -16,24 +16,52 @@
   <div class="container fade-in">
     <p class="section-label">Shreevidya Upasana</p>
     <h2>A Sacred Centre of Shreechakra Mahameru Worship</h2>
-    <p style="color:var(--text-muted);margin-bottom:1rem;">A form of precious upasana with an affiliation to Vedic authenticity and a strong Agamic base is Shreevidya. It is a perfect combination of deity, mantra, tantra, and Shreechakra is a unique yantra which has its presiding deity as Shree Lalitha Mahatripurasundari and the corresponding mantra is Panchadasi.</p>
-    <p style="color:var(--text-muted);margin-bottom:1rem;">As Shreevidya is a rahasya jnana as pronounced in Tantric texts, it is practiced by a limited number of upasakas. The expectations and systems of upasana are quite complicated, and it is believed that only a sadhaka with accumulated punya can enter into this upasana. Under these constraints, there are very few centres, such as temples and mandiras, for this upasana in India.</p>
-    <p style="color:var(--text-muted);margin-bottom:1rem;">In light of the above, with the divine grace and prerana of the Mother Goddess, a centre for Shreevidya Upasana was created with the help of devotees by SHREEVIDYA UPASANA MAHAPEETAMA TRUST(R), Bangalore, founded by Dr. S.R. Narasimha Murthy (Nrisimhanandanatha), a senior Shreevidya upasaka under the lineage of Srimajjagadguru Shankaracharya Shree Shree Sachidananda Valukeshwara Bharathi Mahaswamiji, Kudli Sringeri Maha Samsthanam, Kudli, Shimoga.</p>
-    <p style="color:var(--text-muted);margin-bottom:1rem;">The temple is patronised by Dr. M.S. Prakash, a senior educationist; Sri M.S. Satheesh, businessman; Sri U.V. Srinivasa Murthy, a retired senior official; and many other devotees.</p>
-    <p style="color:var(--text-muted);">This beautiful temple of Shreechakra Mahameru and Sri Lalitha Mahatripurasundari is a unique temple built in a very calm and serene atmosphere. This is the only temple with a combination of Shreechakra Mahameru, Sri Lalitha Matha, and Mahameru Gopuram in Karnataka, and one among such few temples of the world. Srimatha is fulfilling all the requests of devotees here.</p>
+    <p style="color:var(--text-muted);margin-bottom:1rem;">Shreevidya is a revered and profound form of worship deeply rooted in Vedic tradition and supported by a strong Agamic foundation. It represents a complete spiritual system that harmoniously integrates Deity, Mantra, Tantra, and Yantra. At its core is the sacred Shreechakra, a unique and powerful Yantra presided over by Sri Lalitha Mahatripurasundari, with the Panchadasi Mantra serving as its principal mantra.</p>
+    <p style="color:var(--text-muted);margin-bottom:1rem;">According to the Tantric scriptures, Shreevidya is considered a Rahasya Jnana (esoteric spiritual knowledge). As a result, it is traditionally practiced by a limited number of dedicated upasakas (spiritual aspirants). The disciplines, rituals, and expectations associated with this path are intricate and demanding, and it is believed that only those blessed with accumulated spiritual merit (punya) are drawn to and initiated into this sacred tradition. Consequently, there are only a few temples and centers dedicated to Shreevidya Upasana across India.</p>
+    <p style="color:var(--text-muted);margin-bottom:1rem;">Inspired by the divine grace and guidance of Sri Lalitha Mahatripurasundari, and with the devoted support of numerous devotees, a dedicated center for Shreevidya Upasana was established by the SHREEVIDYA UPASANA MAHAPEETAMA TRUST (R), Bangalore.</p>
+    <p style="color:var(--text-muted);margin-bottom:1rem;">The Trust was founded by Dr. S. R. Narasimha Murthy, a distinguished Shreevidya Upasaka belonging to the spiritual lineage of Kudli Sringeri Maha Samsthanam, under the blessings of Sri Jagadguru Shankaracharya Sri Sri Sachidananda Valukeshwara Bharathi Mahaswamiji.</p>
+    <p style="color:var(--text-muted);margin-bottom:1rem;">The initiative has been patronized and supported by eminent personalities and devotees, including Dr. M. S. Prakash, M. S. Satheesh, U. V. Srinivasa Murthy, and many others.</p>
+    <p style="color:var(--text-muted);margin-bottom:1rem;">Nestled in a serene and tranquil environment, this magnificent temple dedicated to Sri Lalitha Mahatripurasundari Temple houses the sacred Shreechakra Mahameru and Sri Lalitha Mahatripurasundari. It is unique in Karnataka for its rare combination of the Shreechakra Mahameru, Sri Lalitha Matha, and Mahameru Gopuram, making it one of the very few temples in the world featuring this exceptional spiritual architecture.</p>
+    <p style="color:var(--text-muted);">Devotees visit this sacred abode seeking the blessings of Srimatha, whose divine grace continues to fulfill the heartfelt prayers and aspirations of countless devotees.</p>
   </div>
 </section>
 
+
+<section class="section">
+  <div class="container">
+    <p class="section-label center">Trustees & Office Bearers</p>
+    <h2 class="center">SHREEVIDYA UPASANA MAHAPEETAM TRUST (R)</h2>
+    <div class="trustee-grid">
+      <article class="trustee-card trustee-card-featured">
+        <h3>Dr. M. S. Prakash</h3>
+        <span>President</span>
+      </article>
+      <article class="trustee-card">
+        <h3>Dr. S. R. Narasimha Murthy</h3>
+        <p>(Nrisimhanandanatha)</p>
+      </article>
+      <article class="trustee-card trustee-card-featured">
+        <h3>M. S. Satheesh</h3>
+        <span>Managing Trustee</span>
+      </article>
+      <article class="trustee-card"><h3>U. V. Srinivasa Murthy</h3></article>
+      <article class="trustee-card"><h3>B. Mallikarjuna</h3></article>
+      <article class="trustee-card"><h3>G. Dinesh kumar</h3></article>
+      <article class="trustee-card"><h3>K. C. Sudarshan</h3></article>
+      <article class="trustee-card"><h3>Smt. Sudha Gopalakrishna</h3></article>
+    </div>
+  </div>
+</section>
 
 <!-- MISSION -->
 <section class="section">
   <div class="container two-col">
     <div class="fade-in">
       <p class="section-label">Our Purpose</p>
-      <h2>Why ShriChakra Mandiram Exists</h2>
-      <p style="color:var(--text-muted);margin-bottom:1rem;">The ShriChakra — the sacred geometric diagram of the Divine Mother — is considered the most powerful of all yantras in the Shakta tradition. Our temple was founded with a singular purpose: to make this living science accessible to sincere devotees, and to maintain an unbroken tradition of its worship.</p>
+      <h2>Why Shreechakra Mandiram Exists</h2>
+      <p style="color:var(--text-muted);margin-bottom:1rem;">The Shreechakra — the sacred geometric diagram of the Divine Mother — is considered the most powerful of all yantras in the Shakta tradition. Our temple was founded with a singular purpose: to make this living science accessible to sincere devotees, and to maintain an unbroken tradition of its worship.</p>
       <p style="color:var(--text-muted);margin-bottom:1rem;">We are not merely a place of religious ritual, but a living university of spiritual wisdom, where the Vedic, Tantric, and Puranic streams converge in service of the Divine Mother.</p>
-      <p style="color:var(--text-muted);">Every stone, every ritual, every mantra here is calibrated to the sacred geometry of the ShriChakra, making this entire space a three-dimensional yantra.</p>
+      <p style="color:var(--text-muted);">Every stone, every ritual, every mantra here is calibrated to the sacred geometry of the Shreechakra, making this entire space a three-dimensional yantra.</p>
     </div>
     <div class="about-visual fade-in" style="display:flex;justify-content:center;align-items:center;">
       <div style="text-align:center;padding:2rem;">
@@ -57,7 +85,7 @@
         <div class="timeline-year">1973</div>
         <div class="timeline-content">
           <h4>Founding & Consecration</h4>
-          <p>Sri Pandit Ramachandra Shastri, a renowned Shakta scholar from Varanasi, consecrated the original ShriChakra yantra on Navaratri Mahanavami, establishing the first puja in a humble shed. The presiding deity, Devi Rajeshwari, was installed following Tantric tradition.</p>
+          <p>Sri Pandit Ramachandra Shastri, a renowned Shakta scholar from Varanasi, consecrated the original Shreechakra yantra on Navaratri Mahanavami, establishing the first puja in a humble shed. The presiding deity, Devi Rajeshwari, was installed following Tantric tradition.</p>
         </div>
       </div>
       <div class="timeline-item fade-in">
@@ -71,7 +99,7 @@
         <div class="timeline-year">1998</div>
         <div class="timeline-content">
           <h4>The Great Kumbhabhishekam</h4>
-          <p>A 10-day Maha Kumbhabhishekam was conducted with over 108 priests from across South India. The Shodasha Mahabhishekam of the Devi and the renovation of the ShriChakra yantra renewed the divine presence of the temple.</p>
+          <p>A 10-day Maha Kumbhabhishekam was conducted with over 108 priests from across South India. The Shodasha Mahabhishekam of the Devi and the renovation of the Shreechakra yantra renewed the divine presence of the temple.</p>
         </div>
       </div>
       <div class="timeline-item fade-in">
@@ -85,7 +113,7 @@
         <div class="timeline-year">2023</div>
         <div class="timeline-content">
           <h4>Golden Jubilee Celebration</h4>
-          <p>The 50th anniversary was celebrated with a grand 21-day Ati Rudra Maha Yagna, Sahasra Deepotsava, and the installation of a newly carved Panchadhatu ShriChakra Meru — gifted by devotees from 12 countries.</p>
+          <p>The 50th anniversary was celebrated with a grand 21-day Ati Rudra Maha Yagna, Sahasra Deepotsava, and the installation of a newly carved Panchadhatu Shreechakra Meru — gifted by devotees from 12 countries.</p>
         </div>
       </div>
     </div>
@@ -124,19 +152,20 @@
 <section class="quote-section">
   <div class="quote-inner">
     <div class="quote-chakra">⬡</div>
-    <blockquote>"The ShriChakra is not merely a diagram. It is a living map of consciousness — the universe encoded in geometry. To worship it is to worship the Devi in her most essential, most infinite form."</blockquote>
+    <blockquote>"The Shreechakra is not merely a diagram. It is a living map of consciousness — the universe encoded in geometry. To worship it is to worship the Devi in her most essential, most infinite form."</blockquote>
     <cite>— Sri Subrahmanya Shastri, Head Priest</cite>
   </div>
-</section>0:{"P":null,"c":["","about"],"q":"","i":false,"f":[[["",{"children":["about",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/ShriChakra-Mandiram/_next/static/chunks/04rmd3lq3~f-8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap","rel":"stylesheet"}],["$","script",null,{"src":"/ShriChakra-Mandiram/temple-content-config.js"}]]}],["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$5"}}],null,"$L6"]}],{},null,false,null]},null,false,"$@7"]},null,false,null],"$L8",false]],"m":"$undefined","G":["$9",["$La"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"_7U_k7JB7rMsiRcAnYQFI"}
-b:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+</section>0:{"P":null,"c":["","about"],"q":"","i":false,"f":[[["",{"children":["about",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/ShriChakra-Mandiram/_next/static/chunks/0sys0jwyk6-sr.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap","rel":"stylesheet"}],["$","script",null,{"src":"/ShriChakra-Mandiram/temple-content-config.js"}]]}],["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$5"}}],null,"$L6"]}],{},null,false,null]},null,false,"$@7"]},null,false,null],"$L8",false]],"m":"$undefined","G":["$9",["$La"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"8nC-hBy9dUtHXWin35xUI"}
+b:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 c:"$Sreact.suspense"
-f:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
-11:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+f:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+11:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
 6:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
 e:[]
 7:"$We"
 8:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$c",null,{"name":"Next.Metadata","children":"$L12"}]}]}],null]}]
-a:["$","link","0",{"rel":"stylesheet","href":"/ShriChakra-Mandiram/_next/static/chunks/04rmd3lq3~f-8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+a:["$","link","0",{"rel":"stylesheet","href":"/ShriChakra-Mandiram/_next/static/chunks/0sys0jwyk6-sr.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
 10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
 d:null
-12:[["$","title","0",{"children":"About – ShriChakra Mandiram"}],["$","meta","1",{"name":"description","content":"Sacred temple website for ShriChakra Mandiram."}]]
+12:[["$","title","0",{"children":"About - Shreechakra Mandiram"}],["$","meta","1",{"name":"description","content":"Sacred temple website for Shreechakra Mandiram."}],["$","link","2",{"rel":"icon","href":"/ShriChakra-Mandiram/favicon.ico"}],["$","$L13","3",{}]]

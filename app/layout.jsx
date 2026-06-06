@@ -1,10 +1,13 @@
 import './globals.css';
 import AppChrome from '@/components/AppChrome';
-import { basePath } from '@/lib/site';
+import { basePath, siteName } from '@/lib/site';
 
 export const metadata = {
-  title: 'ShriChakra Mandiram',
-  description: 'Sacred temple website for ShriChakra Mandiram.',
+  title: siteName,
+  description: `Sacred temple website for ${siteName}.`,
+  icons: {
+    icon: `${basePath}/favicon.ico`,
+  },
 };
 
 export default function RootLayout({ children }) {

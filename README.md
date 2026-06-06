@@ -1,6 +1,6 @@
-# ShriChakra Mandiram
+# Shreechakra Mandiram
 
-Next.js site for ShriChakra Mandiram.
+Next.js site for Shreechakra Mandiram.
 
 ## Development
 

@@ -1,19 +1,19 @@
 /* ============================================
-   ShriChakra Mandiram – Global Styles
+   Shreechakra Mandiram - Global Styles
    ============================================ */
 
 :root {
   --gold:      #c9922a;
   --gold-lt:   #e8b84b;
   --gold-dk:   #8b5e1a;
-  --crimson:   #8b1a1a;
-  --crimson-lt:#c0392b;
-  --maroon:    #4a0e0e;
-  --bg-dark:   #0d0704;
-  --bg-mid:    #1a0c08;
-  --bg-section:#120a06;
-  --text:      #f0e6d3;
-  --text-muted:#b8a080;
+  --crimson:   #b83e48;
+  --crimson-lt:#ef8588;
+  --maroon:    #7a3038;
+  --bg-dark:   #1b0f11;
+  --bg-mid:    #2a1417;
+  --bg-section:#241114;
+  --text:      #fff0e3;
+  --text-muted:#d7baa2;
   --white:     #fff8f0;
   --font-head: 'Cinzel Decorative', serif;
   --font-sub:  'Cinzel', serif;
@@ -43,12 +43,12 @@ body {
   position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
   display: flex; align-items: center; justify-content: space-between;
   padding: 1rem 2.5rem;
-  background: rgba(13,7,4,0.85);
+  background: rgba(27,15,17,0.86);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(201,146,42,0.25);
   transition: background 0.3s;
 }
-.navbar.scrolled { background: rgba(13,7,4,0.97); }
+.navbar.scrolled { background: rgba(27,15,17,0.97); }
 
 .nav-logo {
   display: flex; align-items: center; gap: 0.6rem;
@@ -88,7 +88,7 @@ body {
 
 .hero-bg {
   position: absolute; inset: 0;
-  background: radial-gradient(ellipse at 30% 50%, #2a0e06 0%, #0d0704 65%);
+  background: radial-gradient(ellipse at 30% 50%, #5a242b 0%, #1b0f11 65%);
 }
 .hero-bg::after {
   content: '';
@@ -149,11 +149,11 @@ body {
   animation: fadeUp 1s 0.3s both;
 }
 .hero-title {
-  font-family: var(--font-head); font-size: clamp(2rem, 3.5vw, 4rem);
+  font-family: var(--font-head); font-size: clamp(1.9rem, 3.1vw, 3.5rem);
   line-height: 1.1; color: var(--white); margin-bottom: 1rem;
   animation: fadeUp 1s 0.5s both;
 }
-.hero-title span { color: var(--gold-lt); }
+.hero-title span { color: var(--gold-lt); display: block; font-size: 0.72em; line-height: 1.2; }
 .hero-tagline {
   font-family: var(--font-sub); font-size: 0.82rem; letter-spacing: 0.12em;
   color: var(--text-muted); text-transform: uppercase;
@@ -362,7 +362,7 @@ cite { font-family: var(--font-sub); font-size: 0.8rem; letter-spacing: 0.15em; 
   justify-content: center;
   overflow: hidden;
   background:
-    radial-gradient(circle at 50% 42%, rgba(201,146,42,0.18) 0%, rgba(139,26,26,0.3) 38%, rgba(10,5,3,0.92) 100%);
+    radial-gradient(circle at 50% 42%, rgba(201,146,42,0.18) 0%, rgba(184,62,72,0.34) 38%, rgba(27,15,17,0.92) 100%);
 }
 .gallery-thumb img {
   width: 82%;
@@ -401,7 +401,7 @@ cite { font-family: var(--font-sub); font-size: 0.8rem; letter-spacing: 0.15em; 
   padding: 0.25rem 0.65rem;
   border: 1px solid rgba(201,146,42,0.45);
   color: var(--gold-lt);
-  background: rgba(13,7,4,0.72);
+  background: rgba(27,15,17,0.76);
 }
 .gallery-body {
   padding: 1.5rem;
@@ -673,6 +673,126 @@ cite { font-family: var(--font-sub); font-size: 0.8rem; letter-spacing: 0.15em; 
   line-height: 1.45;
 }
 
+.trustee-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.trustee-card {
+  min-height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(255,255,255,0.035);
+  border: 1px solid rgba(201,146,42,0.16);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.trustee-card-featured {
+  background: rgba(184,62,72,0.16);
+  border-color: rgba(201,146,42,0.3);
+}
+
+.trustee-card h3 {
+  font-family: var(--font-sub);
+  color: var(--gold-lt);
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.trustee-card span,
+.trustee-card p {
+  color: var(--text-muted);
+  font-family: var(--font-sub);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.facility-plan-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.facility-plan-item {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  gap: 1rem;
+  align-items: center;
+  background: rgba(255,255,255,0.035);
+  border: 1px solid rgba(201,146,42,0.16);
+  padding: 1rem 1.25rem;
+}
+
+.facility-plan-item span {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  background: rgba(184,62,72,0.2);
+  color: var(--gold-lt);
+  font-family: var(--font-head);
+}
+
+.facility-plan-item p {
+  color: var(--text-muted);
+}
+
+.deity-feature-layout {
+  display: grid;
+  grid-template-columns: minmax(240px, 360px) 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.deity-card-large {
+  max-width: 360px;
+}
+
+.deity-placeholder {
+  min-height: 220px;
+  background:
+    radial-gradient(circle at 50% 35%, rgba(201,146,42,0.22), rgba(184,62,72,0.32) 48%, rgba(27,15,17,0.92) 100%);
+}
+
+.deity-placeholder span {
+  font-family: var(--font-sub);
+  color: var(--gold-lt);
+  border: 1px solid rgba(201,146,42,0.35);
+  padding: 0.45rem 0.8rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.deity-body {
+  padding: 1.4rem;
+}
+
+.deity-body h3 {
+  font-family: var(--font-sub);
+  color: var(--gold-lt);
+  font-size: 0.98rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+.deity-body p {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 760px) {
+  .deity-feature-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ── FOOTER ── */
 .footer {
   background: #0a0503; border-top: 1px solid rgba(201,146,42,0.2); padding: 3rem 2rem;
@@ -693,7 +813,7 @@ cite { font-family: var(--font-sub); font-size: 0.8rem; letter-spacing: 0.15em; 
 /* ── PAGE HERO (inner pages) ── */
 .page-hero {
   padding: 8rem 2rem 4rem; text-align: center;
-  background: radial-gradient(ellipse at 50% 0%, rgba(139,26,26,0.35) 0%, var(--bg-dark) 65%);
+  background: radial-gradient(ellipse at 50% 0%, rgba(184,62,72,0.42) 0%, var(--bg-dark) 65%);
   border-bottom: 1px solid rgba(201,146,42,0.2);
   position: relative; overflow: hidden;
 }
@@ -717,7 +837,7 @@ cite { font-family: var(--font-sub); font-size: 0.8rem; letter-spacing: 0.15em; 
 .deity-card:hover, .service-card:hover { border-color: rgba(201,146,42,0.5); transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
 .card-thumb {
   height: 200px; display: flex; align-items: center; justify-content: center;
-  background: radial-gradient(circle, rgba(139,26,26,0.4) 0%, rgba(10,5,3,0.8) 100%);
+  background: radial-gradient(circle, rgba(184,62,72,0.44) 0%, rgba(27,15,17,0.82) 100%);
   font-size: 5rem; position: relative; overflow: hidden;
 }
 .card-thumb::after {
@@ -731,7 +851,7 @@ cite { font-family: var(--font-sub); font-size: 0.8rem; letter-spacing: 0.15em; 
 
 /* ── SERVICES ── */
 .service-card { display: flex; flex-direction: column; }
-.service-header { padding: 1.5rem; background: rgba(139,26,26,0.15); border-bottom: 1px solid rgba(201,146,42,0.15); display: flex; align-items: center; gap: 1rem; }
+.service-header { padding: 1.5rem; background: rgba(184,62,72,0.18); border-bottom: 1px solid rgba(201,146,42,0.15); display: flex; align-items: center; gap: 1rem; }
 .service-icon { font-size: 2rem; }
 .service-header h3 { font-family: var(--font-sub); font-size: 1rem; color: var(--gold-lt); }
 .service-body { padding: 1.5rem; flex: 1; }
@@ -816,7 +936,7 @@ cite { font-family: var(--font-sub); font-size: 0.8rem; letter-spacing: 0.15em; 
   .admin-workspace, .admin-sidebar { padding: 1.25rem; }
   .admin-header, .admin-two { display: grid; grid-template-columns: 1fr; }
   .navbar { padding: 1rem 1.5rem; }
-  .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: rgba(13,7,4,0.98); padding: 1rem 2rem; border-bottom: 1px solid rgba(201,146,42,0.2); }
+  .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: rgba(27,15,17,0.98); padding: 1rem 2rem; border-bottom: 1px solid rgba(201,146,42,0.2); }
   .nav-links.open { display: flex; }
   .nav-toggle { display: block; }
   .timing-item { padding: 0.5rem 1rem; }

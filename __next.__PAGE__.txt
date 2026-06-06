@@ -1,27 +1,27 @@
 1:"$Sreact.fragment"
-4:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 5:"$Sreact.suspense"
-2:T1b15,<!-- NAV -->
+2:T1b2d,<!-- NAV -->
 <!-- HERO -->
 <section class="hero">
   <div class="hero-bg"></div>
 
   <div class="hero-layout">
 
-  <!-- LEFT: ShriChakra Yantra — gold-treated image -->
+  <!-- LEFT: Shreechakra Yantra — gold-treated image -->
   <div class="shrichakra-container">
-    <img src="/ShriChakra-Mandiram/shrichakra.png" class="shrichakra" alt="ShriChakra Yantra"/>
+    <img src="/ShriChakra-Mandiram/shrichakra.png" class="shrichakra" alt="Shreechakra Yantra"/>
   </div>
 
   <!-- RIGHT: Text Content -->
   <div class="hero-content">
     <p class="hero-subtitle">Welcome to</p>
-    <h1 class="hero-title">ShriChakra<br><span>Mandiram</span></h1>
+    <h1 class="hero-title">Shreevidya<br><span>Shreechakra Mahameru Mandiram</span></h1>
     <p class="hero-tagline">Abode of the Divine Mother · Seat of the Sacred Yantra</p>
     <div class="hero-divider"></div>
-    <p class="hero-desc">A sacred sanctuary dedicated to Devi Tripura Sundari — where the eternal cosmic geometry of the ShriChakra manifests as living grace.</p>
+    <p class="hero-desc">A sacred sanctuary dedicated to Devi Tripura Sundari — where the eternal cosmic geometry of the Shreechakra manifests as living grace.</p>
     <div class="hero-actions">
-      <a href="/ShriChakra-Mandiram/sevas" class="btn-primary">View Services</a>
+      <a href="/ShriChakra-Mandiram/sevas" class="btn-primary">View Sevas</a>
       <a href="/ShriChakra-Mandiram/events" class="btn-ghost">Upcoming Events</a>
     </div>
   </div>
@@ -64,7 +64,7 @@
     <div class="about-text fade-in">
       <p class="section-label">Our Heritage</p>
       <h2>A Temple Born<br>from Sacred Tradition</h2>
-      <p>ShriChakra Mandiram was consecrated over five decades ago, anchored in the ancient Shakta tradition. The presiding deity, Devi Tripura Sundari — the most beautiful of the three worlds — is worshipped here through the living science of the ShriChakra yantra.</p>
+      <p>Shreechakra Mandiram was consecrated over five decades ago, anchored in the ancient Shakta tradition. The presiding deity, Devi Tripura Sundari — the most beautiful of the three worlds — is worshipped here through the living science of the Shreechakra yantra.</p>
       <p>Our priests follow the Shodashopachara (16-step) method of worship, maintaining an unbroken lineage of Tantric ritual that spans generations.</p>
       <a href="/ShriChakra-Mandiram/about" class="btn-primary">Learn More</a>
     </div>
@@ -103,7 +103,7 @@
       <div class="feature-card fade-in">
         <div class="feature-icon">📖</div>
         <h3>Spiritual Classes</h3>
-        <p>Weekly discourses on Devi Mahatmyam, Lalita Sahasranama, and the science of the ShriChakra Yantra.</p>
+        <p>Weekly discourses on Devi Mahatmyam, Lalita Sahasranama, and the science of the Shreechakra Yantra.</p>
       </div>
       <div class="feature-card fade-in">
         <div class="feature-icon">🌺</div>
@@ -177,6 +177,6 @@
   </div>
 </section>
 
-<!-- FOOTER -->0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],null,"$L3"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"_7U_k7JB7rMsiRcAnYQFI"}
+<!-- FOOTER -->0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],null,"$L3"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"8nC-hBy9dUtHXWin35xUI"}
 3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
 6:null

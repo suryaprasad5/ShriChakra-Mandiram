@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import { siteName } from '@/lib/site';
 
 const defaultEvent = {
   title: 'Navaratri Mahotsavam',
@@ -196,7 +197,7 @@ export default function AdminPage() {
     <main className="admin-shell">
       <aside className="admin-sidebar">
         <div>
-          <p className="admin-kicker">ShriChakra Mandiram</p>
+          <p className="admin-kicker">{siteName}</p>
           <h1>Admin Portal</h1>
           <p>Manage Drive-linked gallery albums, invitations, events, and sevas.</p>
         </div>

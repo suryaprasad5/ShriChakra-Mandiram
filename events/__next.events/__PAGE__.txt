@@ -1,11 +1,11 @@
 1:"$Sreact.fragment"
-2:I[65302,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js","/ShriChakra-Mandiram/_next/static/chunks/047tbt78salsj.js"],"default"]
-6:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+2:I[65302,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js","/ShriChakra-Mandiram/_next/static/chunks/10kd~ddmrw_md.js"],"default"]
+6:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-3:T2c46,<div class="page-hero">
+3:T2c47,<div class="page-hero">
   <p class="breadcrumb"><a href="index.html">Home</a> · Events</p>
   <h1>Temple Events &amp; Festivals</h1>
-  <p>From grand annual Mahotsavams to monthly Tithi celebrations — every day at ShriChakra Mandiram is a festival of devotion.</p>
+  <p>From grand annual Mahotsavams to monthly Tithi celebrations — every day at Shreechakra Mandiram is a festival of devotion.</p>
 </div>
 
 <!-- CALENDAR -->
@@ -182,7 +182,7 @@
       </div>
     </div>
   </div>
-</section>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"kind":"events","fallbackHtml":"$3"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"_7U_k7JB7rMsiRcAnYQFI"}
-4:["$","script","script-0",{"src":"/ShriChakra-Mandiram/_next/static/chunks/047tbt78salsj.js","async":true}]
+</section>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"kind":"events","fallbackHtml":"$3"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"8nC-hBy9dUtHXWin35xUI"}
+4:["$","script","script-0",{"src":"/ShriChakra-Mandiram/_next/static/chunks/10kd~ddmrw_md.js","async":true}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

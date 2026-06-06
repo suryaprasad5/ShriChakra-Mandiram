@@ -1,8 +1,9 @@
 import RawPage from '@/components/RawPage';
 import { pageContent } from '@/lib/pageContent';
+import { siteName } from '@/lib/site';
 
 export const metadata = {
-  title: pageContent.about.title,
+  title: `About - ${siteName}`,
 };
 
 const shreevidyaSection = `
@@ -10,17 +11,47 @@ const shreevidyaSection = `
   <div class="container fade-in">
     <p class="section-label">Shreevidya Upasana</p>
     <h2>A Sacred Centre of Shreechakra Mahameru Worship</h2>
-    <p style="color:var(--text-muted);margin-bottom:1rem;">A form of precious upasana with an affiliation to Vedic authenticity and a strong Agamic base is Shreevidya. It is a perfect combination of deity, mantra, tantra, and Shreechakra is a unique yantra which has its presiding deity as Shree Lalitha Mahatripurasundari and the corresponding mantra is Panchadasi.</p>
-    <p style="color:var(--text-muted);margin-bottom:1rem;">As Shreevidya is a rahasya jnana as pronounced in Tantric texts, it is practiced by a limited number of upasakas. The expectations and systems of upasana are quite complicated, and it is believed that only a sadhaka with accumulated punya can enter into this upasana. Under these constraints, there are very few centres, such as temples and mandiras, for this upasana in India.</p>
-    <p style="color:var(--text-muted);margin-bottom:1rem;">In light of the above, with the divine grace and prerana of the Mother Goddess, a centre for Shreevidya Upasana was created with the help of devotees by SHREEVIDYA UPASANA MAHAPEETAMA TRUST(R), Bangalore, founded by Dr. S.R. Narasimha Murthy (Nrisimhanandanatha), a senior Shreevidya upasaka under the lineage of Srimajjagadguru Shankaracharya Shree Shree Sachidananda Valukeshwara Bharathi Mahaswamiji, Kudli Sringeri Maha Samsthanam, Kudli, Shimoga.</p>
-    <p style="color:var(--text-muted);margin-bottom:1rem;">The temple is patronised by Dr. M.S. Prakash, a senior educationist; Sri M.S. Satheesh, businessman; Sri U.V. Srinivasa Murthy, a retired senior official; and many other devotees.</p>
-    <p style="color:var(--text-muted);">This beautiful temple of Shreechakra Mahameru and Sri Lalitha Mahatripurasundari is a unique temple built in a very calm and serene atmosphere. This is the only temple with a combination of Shreechakra Mahameru, Sri Lalitha Matha, and Mahameru Gopuram in Karnataka, and one among such few temples of the world. Srimatha is fulfilling all the requests of devotees here.</p>
+    <p style="color:var(--text-muted);margin-bottom:1rem;">Shreevidya is a revered and profound form of worship deeply rooted in Vedic tradition and supported by a strong Agamic foundation. It represents a complete spiritual system that harmoniously integrates Deity, Mantra, Tantra, and Yantra. At its core is the sacred Shreechakra, a unique and powerful Yantra presided over by Sri Lalitha Mahatripurasundari, with the Panchadasi Mantra serving as its principal mantra.</p>
+    <p style="color:var(--text-muted);margin-bottom:1rem;">According to the Tantric scriptures, Shreevidya is considered a Rahasya Jnana (esoteric spiritual knowledge). As a result, it is traditionally practiced by a limited number of dedicated upasakas (spiritual aspirants). The disciplines, rituals, and expectations associated with this path are intricate and demanding, and it is believed that only those blessed with accumulated spiritual merit (punya) are drawn to and initiated into this sacred tradition. Consequently, there are only a few temples and centers dedicated to Shreevidya Upasana across India.</p>
+    <p style="color:var(--text-muted);margin-bottom:1rem;">Inspired by the divine grace and guidance of Sri Lalitha Mahatripurasundari, and with the devoted support of numerous devotees, a dedicated center for Shreevidya Upasana was established by the SHREEVIDYA UPASANA MAHAPEETAMA TRUST (R), Bangalore.</p>
+    <p style="color:var(--text-muted);margin-bottom:1rem;">The Trust was founded by Dr. S. R. Narasimha Murthy, a distinguished Shreevidya Upasaka belonging to the spiritual lineage of Kudli Sringeri Maha Samsthanam, under the blessings of Sri Jagadguru Shankaracharya Sri Sri Sachidananda Valukeshwara Bharathi Mahaswamiji.</p>
+    <p style="color:var(--text-muted);margin-bottom:1rem;">The initiative has been patronized and supported by eminent personalities and devotees, including Dr. M. S. Prakash, M. S. Satheesh, U. V. Srinivasa Murthy, and many others.</p>
+    <p style="color:var(--text-muted);margin-bottom:1rem;">Nestled in a serene and tranquil environment, this magnificent temple dedicated to Sri Lalitha Mahatripurasundari Temple houses the sacred Shreechakra Mahameru and Sri Lalitha Mahatripurasundari. It is unique in Karnataka for its rare combination of the Shreechakra Mahameru, Sri Lalitha Matha, and Mahameru Gopuram, making it one of the very few temples in the world featuring this exceptional spiritual architecture.</p>
+    <p style="color:var(--text-muted);">Devotees visit this sacred abode seeking the blessings of Srimatha, whose divine grace continues to fulfill the heartfelt prayers and aspirations of countless devotees.</p>
+  </div>
+</section>
+`;
+
+const trusteesSection = `
+<section class="section">
+  <div class="container">
+    <p class="section-label center">Trustees & Office Bearers</p>
+    <h2 class="center">SHREEVIDYA UPASANA MAHAPEETAM TRUST (R)</h2>
+    <div class="trustee-grid">
+      <article class="trustee-card trustee-card-featured">
+        <h3>Dr. M. S. Prakash</h3>
+        <span>President</span>
+      </article>
+      <article class="trustee-card">
+        <h3>Dr. S. R. Narasimha Murthy</h3>
+        <p>(Nrisimhanandanatha)</p>
+      </article>
+      <article class="trustee-card trustee-card-featured">
+        <h3>M. S. Satheesh</h3>
+        <span>Managing Trustee</span>
+      </article>
+      <article class="trustee-card"><h3>U. V. Srinivasa Murthy</h3></article>
+      <article class="trustee-card"><h3>B. Mallikarjuna</h3></article>
+      <article class="trustee-card"><h3>G. Dinesh kumar</h3></article>
+      <article class="trustee-card"><h3>K. C. Sudarshan</h3></article>
+      <article class="trustee-card"><h3>Smt. Sudha Gopalakrishna</h3></article>
+    </div>
   </div>
 </section>
 `;
 
 export default function Page() {
-  const html = pageContent.about.html.replace('<!-- MISSION -->', `${shreevidyaSection}\n\n<!-- MISSION -->`);
+  const html = pageContent.about.html.replace('<!-- MISSION -->', `${shreevidyaSection}\n${trusteesSection}\n<!-- MISSION -->`);
 
   return <RawPage html={html} />;
 }

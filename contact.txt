@@ -1,11 +1,11 @@
 1:"$Sreact.fragment"
-2:I[84843,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
-3:I[39756,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
-4:I[37457,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
-9:I[68027,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
-:HL["/ShriChakra-Mandiram/_next/static/chunks/04rmd3lq3~f-8.css","style"]
+2:I[84843,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+3:I[39756,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+4:I[37457,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+9:I[68027,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/ShriChakra-Mandiram/_next/static/chunks/0sys0jwyk6-sr.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap","style"]
-5:T32fe,<div class="page-hero">
+5:T33d1,<div class="page-hero">
   <p class="breadcrumb"><a href="/ShriChakra-Mandiram/">Home</a> · Contact</p>
   <h1>Visit &amp; Connect</h1>
   <p>We welcome all sincere seekers. Reach out for puja bookings, spiritual guidance, or to learn about volunteering with us.</p>
@@ -22,7 +22,7 @@
           <div class="info-icon">📍</div>
           <div class="info-text">
             <strong>Address</strong>
-            <span>123 Mandir Marg, Malleshwaram,<br>Bengaluru, Karnataka 560003</span>
+            <span>SHREEVIDYA UPASANA MAHAPEETAM TRUST (R).<br>Regd. Office: Sy. No. 46/1, 3rd Main, Veeranjaneya Nagar, Turahalli,<br>Subrahmanyapura Post, Uttarahalli Hobli, Bangalore - 560061</span>
           </div>
         </div>
         <div class="info-item">
@@ -36,7 +36,7 @@
           <div class="info-icon">📧</div>
           <div class="info-text">
             <strong>Email</strong>
-            <span>info@shrichakramandiram.org<br>puja@shrichakramandiram.org</span>
+            <span>info@shreechakramandiram.org<br>puja@shreechakramandiram.org</span>
           </div>
         </div>
         <div class="info-item">
@@ -58,8 +58,8 @@
         <div style="margin-top:2rem;background:rgba(255,255,255,0.03);border:1px solid rgba(201,146,42,0.15);height:250px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
           <div style="text-align:center;z-index:2;">
             <div style="font-size:3rem;margin-bottom:0.5rem;">🗺️</div>
-            <div style="font-family:var(--font-sub);font-size:0.85rem;color:var(--gold-lt);">123 Mandir Marg</div>
-            <div style="font-family:var(--font-sub);font-size:0.75rem;color:var(--text-muted);">Malleshwaram, Bengaluru</div>
+            <div style="font-family:var(--font-sub);font-size:0.85rem;color:var(--gold-lt);">SHREEVIDYA UPASANA MAHAPEETAM TRUST (R).</div>
+            <div style="font-family:var(--font-sub);font-size:0.75rem;color:var(--text-muted);">Turahalli, Bangalore - 560061</div>
             <a href="https://maps.google.com" target="_blank" style="display:inline-block;margin-top:1rem;" class="btn-ghost">Open in Maps</a>
           </div>
           <!-- grid lines for map feel -->
@@ -70,10 +70,10 @@
         <div style="margin-top:2rem;padding:1.5rem;background:rgba(255,255,255,0.03);border:1px solid rgba(201,146,42,0.15);">
           <h4 style="font-family:var(--font-sub);color:var(--gold-lt);font-size:0.9rem;margin-bottom:1rem;">How to Reach</h4>
           <div style="display:flex;flex-direction:column;gap:0.6rem;">
-            <div style="display:flex;gap:0.8rem;color:var(--text-muted);font-size:0.9rem;"><span>🚇</span><span><strong style="color:var(--text);">Metro:</strong> Malleshwaram Station (Purple Line) – 500m walk</span></div>
-            <div style="display:flex;gap:0.8rem;color:var(--text-muted);font-size:0.9rem;"><span>🚌</span><span><strong style="color:var(--text);">Bus:</strong> BMTC Routes 201, 211, 255 – Mandir Stop</span></div>
+            <div style="display:flex;gap:0.8rem;color:var(--text-muted);font-size:0.9rem;"><span>🚇</span><span><strong style="color:var(--text);">Metro:</strong> Nearest Kanakapura Road metro station, then local auto/cab to Turahalli</span></div>
+            <div style="display:flex;gap:0.8rem;color:var(--text-muted);font-size:0.9rem;"><span>🚌</span><span><strong style="color:var(--text);">Bus:</strong> BMTC services towards Turahalli/Subrahmanyapura; confirm current route before travel</span></div>
             <div style="display:flex;gap:0.8rem;color:var(--text-muted);font-size:0.9rem;"><span>🚗</span><span><strong style="color:var(--text);">Parking:</strong> Free parking available in the temple courtyard</span></div>
-            <div style="display:flex;gap:0.8rem;color:var(--text-muted);font-size:0.9rem;"><span>🛺</span><span><strong style="color:var(--text);">Auto/Cab:</strong> Search "ShriChakra Mandiram Malleshwaram"</span></div>
+            <div style="display:flex;gap:0.8rem;color:var(--text-muted);font-size:0.9rem;"><span>🛺</span><span><strong style="color:var(--text);">Auto/Cab:</strong> Search "Shreechakra Mandiram Turahalli"</span></div>
           </div>
         </div>
       </div>
@@ -189,16 +189,17 @@
       <a href="/ShriChakra-Mandiram/contact" class="btn-primary">Donate Now · UPI / Bank Transfer</a>
     </div>
   </div>
-</section>0:{"P":null,"c":["","contact"],"q":"","i":false,"f":[[["",{"children":["contact",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/ShriChakra-Mandiram/_next/static/chunks/04rmd3lq3~f-8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap","rel":"stylesheet"}],["$","script",null,{"src":"/ShriChakra-Mandiram/temple-content-config.js"}]]}],["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$5"}}],null,"$L6"]}],{},null,false,null]},null,false,"$@7"]},null,false,null],"$L8",false]],"m":"$undefined","G":["$9",["$La"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"_7U_k7JB7rMsiRcAnYQFI"}
-b:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+</section>0:{"P":null,"c":["","contact"],"q":"","i":false,"f":[[["",{"children":["contact",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/ShriChakra-Mandiram/_next/static/chunks/0sys0jwyk6-sr.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap","rel":"stylesheet"}],["$","script",null,{"src":"/ShriChakra-Mandiram/temple-content-config.js"}]]}],["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$5"}}],null,"$L6"]}],{},null,false,null]},null,false,"$@7"]},null,false,null],"$L8",false]],"m":"$undefined","G":["$9",["$La"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"8nC-hBy9dUtHXWin35xUI"}
+b:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 c:"$Sreact.suspense"
-f:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
-11:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0hotsf9qk6p.j.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+f:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+11:I[97367,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
 6:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
 e:[]
 7:"$We"
 8:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$c",null,{"name":"Next.Metadata","children":"$L12"}]}]}],null]}]
-a:["$","link","0",{"rel":"stylesheet","href":"/ShriChakra-Mandiram/_next/static/chunks/04rmd3lq3~f-8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+a:["$","link","0",{"rel":"stylesheet","href":"/ShriChakra-Mandiram/_next/static/chunks/0sys0jwyk6-sr.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
 10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/ShriChakra-Mandiram/_next/static/chunks/0d~kxxrl1_0si.js","/ShriChakra-Mandiram/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
 d:null
-12:[["$","title","0",{"children":"Contact – ShriChakra Mandiram"}],["$","meta","1",{"name":"description","content":"Sacred temple website for ShriChakra Mandiram."}]]
+12:[["$","title","0",{"children":"Contact - Shreechakra Mandiram"}],["$","meta","1",{"name":"description","content":"Sacred temple website for Shreechakra Mandiram."}],["$","link","2",{"rel":"icon","href":"/ShriChakra-Mandiram/favicon.ico"}],["$","$L13","3",{}]]

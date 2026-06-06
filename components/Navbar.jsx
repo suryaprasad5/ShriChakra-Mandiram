@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import { navItems } from '@/lib/site';
+import { navItems, siteName } from '@/lib/site';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -23,9 +23,9 @@ export default function Navbar() {
 
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} id="navbar">
-      <Link href="/" className="nav-logo" aria-label="ShriChakra Mandiram home">
+      <Link href="/" className="nav-logo" aria-label={`${siteName} home`}>
         <span className="om">ॐ</span>
-        <span className="temple-name">ShriChakra Mandiram</span>
+        <span className="temple-name">{siteName}</span>
       </Link>
       <button
         className="nav-toggle"
