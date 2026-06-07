@@ -26,6 +26,38 @@ const shreevidyaSection = `
     <p style="color:var(--text-muted);margin-bottom:1rem;">The initiative has been patronized and supported by eminent personalities and devotees, including Dr. M. S. Prakash, M. S. Satheesh, U. V. Srinivasa Murthy, and many others.</p>
     <p style="color:var(--text-muted);margin-bottom:1rem;">Nestled in a serene and tranquil environment, this magnificent temple dedicated to Sri Lalitha Mahatripurasundari Temple houses the sacred Shreechakra Mahameru and Sri Lalitha Mahatripurasundari. It is unique in Karnataka for its rare combination of the Shreechakra Mahameru, Sri Lalitha Matha, and Mahameru Gopuram, making it one of the very few temples in the world featuring this exceptional spiritual architecture.</p>
     <p style="color:var(--text-muted);">Devotees visit this sacred abode seeking the blessings of Srimatha, whose divine grace continues to fulfill the heartfelt prayers and aspirations of countless devotees.</p>
+
+    <div style="display:flex;align-items:center;gap:2rem;margin-top:2.5rem;flex-wrap:wrap;">
+      <div style="background:rgba(168,50,50,0.15);border:1px solid rgba(201,146,42,0.25);padding:1.5rem 2.5rem;text-align:center;">
+        <div style="font-family:var(--font-head);font-size:2.5rem;color:var(--gold);line-height:1;">2014</div>
+        <div style="font-family:var(--font-sub);font-size:0.75rem;letter-spacing:0.15em;color:var(--text-muted);text-transform:uppercase;margin-top:0.3rem;">Established</div>
+      </div>
+      <div style="color:var(--text-muted);font-size:0.95rem;max-width:480px;">
+        Temple consecrated and Shreechakra Mahameru installed under the guidance of the Sringeri Sharada Peetham lineage.
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+const priestSection = `
+<section class="section">
+  <div class="container">
+    <p class="section-label center">Temple Priests</p>
+    <h2 class="center">Our Priestly Seva</h2>
+    <p style="text-align:center;color:var(--text-muted);max-width:580px;margin:0 auto 3rem;">Daily puja and rituals at the temple are performed by trained priests following the Agama and Shreevidya tradition.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;max-width:700px;margin:0 auto;">
+      <div class="feature-card fade-in" style="text-align:center;">
+        <div style="font-size:3rem;margin-bottom:0.8rem;">👳</div>
+        <h3 style="font-family:var(--font-sub);color:var(--gold-lt);font-size:1rem;margin-bottom:0.2rem;">Shri. K. P. Ashwath Kumar</h3>
+        <span style="font-family:var(--font-sub);font-size:0.75rem;letter-spacing:0.12em;color:var(--gold);text-transform:uppercase;display:block;">Head Priest</span>
+      </div>
+      <div class="feature-card fade-in" style="text-align:center;">
+        <div style="font-size:3rem;margin-bottom:0.8rem;">👳</div>
+        <h3 style="font-family:var(--font-sub);color:var(--gold-lt);font-size:1rem;margin-bottom:0.2rem;">To be updated</h3>
+        <span style="font-family:var(--font-sub);font-size:0.75rem;letter-spacing:0.12em;color:var(--gold);text-transform:uppercase;display:block;">Assistant Priest</span>
+      </div>
+    </div>
   </div>
 </section>
 `;
@@ -59,7 +91,6 @@ const trusteesSection = `
 `;
 
 export default function Page() {
-  // Use only the shreevidya + trustees sections — no fabricated history or priest names
-  const html = `${heroSection}\n${shreevidyaSection}\n${trusteesSection}`;
+  const html = `${heroSection}\n${shreevidyaSection}\n${priestSection}\n${trusteesSection}`;
   return <RawPage html={html} />;
 }

@@ -13,9 +13,17 @@ export default function SiteInteractions() {
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.1 });
+    }, { threshold: 0.05, rootMargin: '0px 0px -20px 0px' });
 
-    document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
+    const fadeEls = document.querySelectorAll('.fade-in');
+    fadeEls.forEach((el) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight) {
+        el.classList.add('visible');
+      } else {
+        observer.observe(el);
+      }
+    });
 
     const headers = Array.from(document.querySelectorAll('.accordion-header'));
     const onAccordionClick = (event) => {
