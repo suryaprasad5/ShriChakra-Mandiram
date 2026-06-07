@@ -1,10 +1,18 @@
 import RawPage from '@/components/RawPage';
 import { pageContent } from '@/lib/pageContent';
-import { siteName } from '@/lib/site';
+import { siteName, withBasePath } from '@/lib/site';
 
 export const metadata = {
   title: `About - ${siteName}`,
 };
+
+const heroSection = `
+<div class="page-hero">
+  <p class="breadcrumb"><a href="/">Home</a> · About</p>
+  <h1>About the Temple</h1>
+  <p>A sacred centre of Shreevidya Upasana, established by divine grace and devoted service to Sri Lalitha Mahatripurasundari.</p>
+</div>
+`;
 
 const shreevidyaSection = `
 <section class="section" style="background:var(--bg-section);">
@@ -51,7 +59,7 @@ const trusteesSection = `
 `;
 
 export default function Page() {
-  const html = pageContent.about.html.replace('<!-- MISSION -->', `${shreevidyaSection}\n${trusteesSection}\n<!-- MISSION -->`);
-
+  // Use only the shreevidya + trustees sections — no fabricated history or priest names
+  const html = `${heroSection}\n${shreevidyaSection}\n${trusteesSection}`;
   return <RawPage html={html} />;
 }

@@ -6,18 +6,22 @@ export const metadata = {
 
 const facilities = [
   {
+    icon: '🏛️',
     title: 'VIDYARANYA PRARTHANA MANDIRA',
     text: 'The temple is accompanied by an adequate Prarthana Mandira called Vidyaranya Prarthana Mandira to accommodate about 100 people for Dhyana, Sankeerthana, Bhajan, and similar devotional activities.',
   },
   {
+    icon: '🔥',
     title: 'SHREEVIDYA CHIDYAGNA SHALA',
     text: 'It is believed that the chaithanya in the deity can be established by doing Yagna; and hence, a unique yaga shala called Shreevidya Yagna Shala is also constructed and yagnic activities are carried here by the devotees.',
   },
   {
+    icon: '🍛',
     title: 'ANNAPOORNAMBA PRASADA BHOJANA SHALA',
     text: 'This is constructed to provide prasadam to devotees to an extent of 50 members at a time.',
   },
   {
+    icon: '🐄',
     title: 'SHREE BHARATI GOSHAALA',
     text: 'A sacred facility dedicated to goshala seva and the traditional care of cows within the spiritual ecosystem of the temple.',
   },
@@ -45,9 +49,10 @@ export default function FacilitiesPage() {
         <div className="container">
           <p className="section-label center">Temple Infrastructure</p>
           <h2 className="center">Sacred Facilities</h2>
-          <div className="cards-grid">
+          <div className="features-grid">
             {facilities.map((facility) => (
               <article className="feature-card fade-in" key={facility.title}>
+                <div className="feature-icon">{facility.icon}</div>
                 <h3>{facility.title}</h3>
                 <p>{facility.text}</p>
               </article>
