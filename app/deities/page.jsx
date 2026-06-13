@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import { siteName, withBasePath } from '@/lib/site';
+import { siteName, withBasePath, basePath } from '@/lib/site';
 
 export const metadata = {
   title: `Deities - ${siteName}`,
@@ -8,27 +7,27 @@ export const metadata = {
 const pantheon = [
   {
     name: 'SHREESHAKTI GANAPATI',
-    file: '/images/deities/shreeshakti-ganapati.jpeg',
+    file: 'shreeshakti-ganapati.jpeg',
     desc: 'The Shakti form of Ganapati, worshipped as the remover of obstacles. Every ritual at the temple begins with Ganapati puja.',
   },
   {
     name: 'SHREESHARADA & SHREESHANKARACHARYA',
-    file: '/images/deities/shreesharada-shreeshankaracharya.jpeg',
+    file: 'shreesharada-shreeshankaracharya.jpeg',
     desc: 'Goddess Sharada (Saraswati) enshrined alongside Adi Shankaracharya, whose Sringeri lineage this temple follows.',
   },
   {
     name: 'SHAALAGRAAMA SHREELAKSHMINARASIMHA',
-    file: '/images/deities/shaalagraama-shreelakshminarasimha.jpeg',
+    file: 'shaalagraama-shreelakshminarasimha.jpeg',
     desc: 'The protective form of Vishnu as Narasimha, worshipped through the sacred Shaalagraama stone.',
   },
   {
     name: 'SHREEPATTABHIRAMA',
-    file: '/images/deities/shreepattabhirama.jpeg',
+    file: 'shreepattabhirama.jpeg',
     desc: 'Sri Rama in his coronation form — the ideal king and embodiment of Dharma, worshipped with Sundarakanda parayana.',
   },
   {
     name: 'SHREEDATTATREYA & SHREEPASHUPATINATHA',
-    file: '/images/deities/shreedattatreya-shreepashupatinatha.jpeg',
+    file: 'shreedattatreya-shreepashupatinatha.jpeg',
     desc: 'Dattatreya — the combined form of Brahma, Vishnu and Shiva — alongside Pashupatinatha, the Lord of all creatures.',
   },
 ];
@@ -40,18 +39,27 @@ const placeholders = [
   'SHREESUBRAHMANYA',
 ];
 
+// img() helper — plain <img> with basePath baked in at build time
+// This is the same pattern used by LiveContentPage.jsx for shrichakra.png
+function deityImg(file, alt) {
+  return `${basePath}/images/deities/${file}`;
+}
+
 function DeityPhoto({ name, file, desc }) {
   return (
     <article className="deity-card fade-in">
-      <div style={{ position: 'relative', height: '260px', overflow: 'hidden' }}>
-        <Image
-          src={file}
-          alt={name}
-          fill
-          style={{ objectFit: 'cover', objectPosition: 'top' }}
-          sizes="(max-width: 600px) 100vw, 300px"
-        />
-      </div>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={`${basePath}/images/deities/${file}`}
+        alt={name}
+        style={{
+          width: '100%',
+          height: '260px',
+          objectFit: 'cover',
+          objectPosition: 'top',
+          display: 'block',
+        }}
+      />
       <div className="deity-body">
         <h3>{name}</h3>
         <p>{desc}</p>
@@ -92,28 +100,40 @@ export default function DeitiesPage() {
             {/* Two photos side by side */}
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
               <div style={{ flex: 1 }}>
-                <div style={{ position: 'relative', height: '300px', border: '1px solid rgba(201,146,42,0.3)' }}>
-                  <Image
-                    src="/images/deities/shreechakra-mahameru.jpeg"
-                    alt="Shreechakra Mahameru"
-                    fill
-                    style={{ objectFit: 'cover', objectPosition: 'top' }}
-                    sizes="220px"
-                  />
-                </div>
-                <p style={{ fontFamily: 'var(--font-sub)', fontSize: '0.7rem', color: 'var(--gold)', letterSpacing: '0.1em', textTransform: 'uppercase', textAlign: 'center', marginTop: '0.5rem' }}>Shreechakra Mahameru</p>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={`${basePath}/images/deities/shreechakra-mahameru.jpeg`}
+                  alt="Shreechakra Mahameru"
+                  style={{
+                    width: '100%',
+                    height: '300px',
+                    objectFit: 'cover',
+                    objectPosition: 'top',
+                    display: 'block',
+                    border: '1px solid rgba(201,146,42,0.3)',
+                  }}
+                />
+                <p style={{ fontFamily: 'var(--font-sub)', fontSize: '0.7rem', color: 'var(--gold)', letterSpacing: '0.1em', textTransform: 'uppercase', textAlign: 'center', marginTop: '0.5rem' }}>
+                  Shreechakra Mahameru
+                </p>
               </div>
               <div style={{ flex: 1 }}>
-                <div style={{ position: 'relative', height: '300px', border: '1px solid rgba(201,146,42,0.3)' }}>
-                  <Image
-                    src="/images/deities/shreelalitha.jpeg"
-                    alt="Sri Lalitha Mahatripurasundari"
-                    fill
-                    style={{ objectFit: 'cover', objectPosition: 'top' }}
-                    sizes="220px"
-                  />
-                </div>
-                <p style={{ fontFamily: 'var(--font-sub)', fontSize: '0.7rem', color: 'var(--gold)', letterSpacing: '0.1em', textTransform: 'uppercase', textAlign: 'center', marginTop: '0.5rem' }}>Sri Lalitha Mahatripurasundari</p>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={`${basePath}/images/deities/shreelalitha.jpeg`}
+                  alt="Sri Lalitha Mahatripurasundari"
+                  style={{
+                    width: '100%',
+                    height: '300px',
+                    objectFit: 'cover',
+                    objectPosition: 'top',
+                    display: 'block',
+                    border: '1px solid rgba(201,146,42,0.3)',
+                  }}
+                />
+                <p style={{ fontFamily: 'var(--font-sub)', fontSize: '0.7rem', color: 'var(--gold)', letterSpacing: '0.1em', textTransform: 'uppercase', textAlign: 'center', marginTop: '0.5rem' }}>
+                  Sri Lalitha Mahatripurasundari
+                </p>
               </div>
             </div>
 
