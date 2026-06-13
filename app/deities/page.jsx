@@ -39,12 +39,6 @@ const placeholders = [
   'SHREESUBRAHMANYA',
 ];
 
-// img() helper — plain <img> with basePath baked in at build time
-// This is the same pattern used by LiveContentPage.jsx for shrichakra.png
-function deityImg(file, alt) {
-  return `${basePath}/images/deities/${file}`;
-}
-
 function DeityPhoto({ name, file, desc }) {
   return (
     <article className="deity-card fade-in">

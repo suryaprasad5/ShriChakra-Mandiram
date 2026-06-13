@@ -41,7 +41,7 @@ export default function Navbar() {
           const active = item.href === '/' ? pathname === '/' : pathname.startsWith(item.href);
           return (
             <li key={item.href}>
-              <Link href={item.href} className={active ? 'active' : undefined}>
+              <Link href={item.href} className={active ? 'active' : undefined} prefetch={false}>
                 {item.label}
               </Link>
             </li>
